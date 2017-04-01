@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- site styling -->
+<head>
+<style>
+  h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+</style>
+</head>
+
+
+
+<body>
+<!-- Content header -->
+<div class="container-fluid">
+ <div class="row">
+    <img src="https://i.imgur.com/NwrNK6q.png" alt="logo">
+  </div>    
+  <div class="row">
+    <h1>What is a Brewgill?</h1>
+  </div>    
+<!-- First row of content: description of product and video -->  
+  <div class="row">
+    <div class="col-xs-6">
+      <p>
+          Description of product 
+      </p>
+    </div>  
+    <div class="col-xs-6">
+      <img src="#" alt="Video">
+    </div>
+  </div>
+<!-- Second row of content: How to use and feature breakdown -->
+  <div class="row">
+    <div class="col-xs-6">
+      <img src="#" alt="3-step infographic on how to use">
+    </div>
+    <div class="col-xs-6">
+      <img src="#" alt="Product feature breakdown"
+    </div>
+  </div>
+<!-- Third row of content: --> 
+</div>
+  </body>
+  
+  </html>
