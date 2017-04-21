@@ -21,9 +21,54 @@
     .logo {
     	padding-top: 60px;
 	  }
+	  html, body {font-family: "Helvetica";}
+body,nav,ul,li,a,img {
+  margin:0;
+  padding:0;
+}
+
+nav ul {
+  background:#444;
+  list-style-type: none;
+  display: flex;
+  flex-direction:column;
+}
+
+nav ul li a {
+  color:#f9f9f9;
+  display:block;
+  padding: 0.8rem 1rem;
+  text-decoration:none;
+}
+
+nav ul li a:hover{
+  background:rgba(0,0,0, .4);
+}
+img {
+  height:70px;
+}
+
+@media only screen and (min-width:30em){
+  nav ul {
+    flex-direction:row;
+    justify-content:space-around;
+  }
+  nav ul li {
+    flex: 1 0 auto;
+    text-align:center;
+  }
+}
+
   </style>
   </head>
-
+<nav>
+  <ul>
+    <li><a href="#"><img src="https://i.imgur.com/MGt7b9g.png"></a></li>
+    <li><a href="#"><img src="https://i.imgur.com/NwrNK6q.png"></a></li>
+    <li><a href="#"><img src="https://i.imgur.com/sCqeZY5.png"></a></li>
+  </ul>
+</nav>
+            
   <body>
 <!-- Content header -->
     <div class="container-fluid" style="overflow: auto">
