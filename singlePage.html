@@ -6,7 +6,20 @@
   
   <head>
   <meta charset="utf-8">
-  <style>
+	 
+	  <script>
+		  
+		  document.getElementById("media-button").addEventListener("click", function (e) {
+    var target = e.target;
+
+    target.classList.toggle("iconize");
+    target.classList.toggle("iconize2");
+}, false);
+		  
+	  </script>
+ 
+	  
+<style>
     body {
       text-align: center;
     }
@@ -35,6 +48,12 @@ nav ul li a:hover{
 img {
   height:70px;
 }
+	
+.media-button.iconize {
+    padding-right: 50px !important;
+    background: url("http://imageshack.us/a/img856/3817/ticklf.png") no-repeat 5px center;
+}
+	
 @media only screen and (min-width:30em){
   nav ul {
     flex-direction:row;
@@ -50,7 +69,7 @@ img {
 <!-- Navigation Bar -->	
 <nav>
   <ul>
-    <li><a href="#"><img src="https://i.imgur.com/MGt7b9g.png"></a></li>
+    <li><a href="#" id="media-button"><img src="https://i.imgur.com/MGt7b9g.png"></a></li>
     <li><a href="#"><img src="https://i.imgur.com/NwrNK6q.png"></a></li>
     <li><a href="#"><img src="https://i.imgur.com/sCqeZY5.png"></a></li>
   </ul>
