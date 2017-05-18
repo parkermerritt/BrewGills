@@ -1,10 +1,9 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-.fa-anchor,.fa-coffee {font-size:200px}
-
+header {background-color: rgba(231, 251, 116, 1);}
 img {height:15vh;}
 
-header {background-color: rgba(231, 251, 116, 1);}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
 
 ul {
   margin:0;
@@ -37,7 +36,7 @@ i#ig:hover {
 }
 
 i#sc:hover {
-  color: #ffe600;
+  color: #ffd700;
 }
 
 i#twit:hover {
