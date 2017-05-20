@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css\style.css">
 <body>
-<!-- Nav Bar -->
+  <!-- Nav Bar -->
 <div class="w3-top">
   <div class="w3-bar w3-card-2 w3-center-align w3-large w3-gray">
    <ul class="w3-center-align">
@@ -19,6 +19,7 @@
    </ul>
   </div>
 </div>
+  
   <!-- Header -->
 <header class="w3-container w3-center " style="padding:128px 16px;">
   
@@ -35,6 +36,7 @@
   
 </header>
 <body>
+  
    <!-- First Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
@@ -72,6 +74,7 @@
      
     </div>
   </div>
+  
 <!-- Second Grid -->
 <div class="w3-rw-padding w3-light-grey w3-padding-64 w3-container w3-center">
   <div class="w3-content">
@@ -104,7 +107,8 @@
     </div>
    </div>
 </div>
-<!-- Third Grid -->
+  
+  <!-- Third Grid -->
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
     <h1 class="w3-margin w3-xlarge">About Us</h1>
 <div class="w3-row-padding w3-padding-64 w3-container">
@@ -118,15 +122,29 @@
    </div>
 </div>
 </div>
-<!-- Footer -->
+  
+  <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center">  
   <div class="w3-xlarge w3-padding-32">
     <a href="https://www.facebook.com/BrewGills/"><i id="fb" class="fa fa-facebook-official"></i></a>
     <a href="https://www.instagram.com/brewgills/"><i id="ig" class="fa fa-instagram"></i></a>
-    <a href="#"><i id="sc" class="fa fa-snapchat"></i></a>
+    <i id="sc" class="fa fa-snapchat"></i>
     <a href="https://twitter.com/BrewGills"><i id="twit" class="fa fa-twitter"></i></a>
     <a href="#"><i id="yt" class="fa fa-youtube-play"></i></a>
  </div>
+  
+  <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
  
 </footer>
 <script>
