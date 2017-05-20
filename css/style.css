@@ -51,7 +51,7 @@ i#yt:hover {
 /* End of Social Media Icons */
 
 /* Style the Icon Used to Trigger the Modal */
-#sc {
+#sc, #ig, #fb, #twit, #yt {
     cursor: pointer;
     transition: 0.3s;
 }
