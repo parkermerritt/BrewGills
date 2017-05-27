@@ -33,7 +33,7 @@ i#fb:hover {
 }
 
 i#ig:hover {
-  color: #bc2a8d;
+  color: linear-gradient(to top right, #fdd573, #7b2dea);
 }
 
 i#sc:hover {
