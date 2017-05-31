@@ -23,8 +23,9 @@ nav ul {
   justify-content:space-around;
 }
 
-.infographic {
-  width:30vw
+.img .infographic {
+  width:30%;
+  padding:0px;
 }
   
   
@@ -66,7 +67,7 @@ i#yt:hover {
         width: 100%;
     }
   
-    .infographic {
-      width:30vw
+    .img .infographic {
+      width:100%
   }
 }
