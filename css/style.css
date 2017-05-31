@@ -1,6 +1,6 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 header {background-color: #72A3CB;}
-img .nav {height:15vh;}
+img {height:15vh;}
 
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
 .fa-anchor,.fa-coffee {font-size:200px}
@@ -28,9 +28,7 @@ nav ul {
   padding:0px;
 }
 
-.nav {
-  height: 15vh
-}
+
 
 .w3-content {
   padding-top: 55px;
