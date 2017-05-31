@@ -23,6 +23,10 @@ nav ul {
   justify-content:space-around;
 }
 
+#header {
+ height:30vh 
+}
+
 #trio {
   height:50vh
 }
