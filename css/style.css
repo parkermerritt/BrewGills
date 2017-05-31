@@ -23,6 +23,11 @@ nav ul {
   justify-content:space-around;
 }
 
+.infographic {
+  width:30%
+}
+  
+  
 .w3-content {
   padding-top: 55px;
 }
@@ -60,4 +65,8 @@ i#yt:hover {
     .modal-content {
         width: 100%;
     }
+  
+    .infographic {
+      width:100%
+  }
 }
