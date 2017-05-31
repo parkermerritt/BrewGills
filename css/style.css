@@ -23,15 +23,12 @@ nav ul {
   justify-content:space-around;
 }
 
-.infographic {
-  width:30%;
-  padding:0px;
-}
+
 
 
 
 .w3-content {
-  padding-top: 35px;
+  padding-top: 40px;
 }
 
 /* Settings for Social Media Icons */
@@ -68,7 +65,4 @@ i#yt:hover {
         width: 100%;
     }
   
-    .img .infographic {
-      width:100%
-  }
 }
