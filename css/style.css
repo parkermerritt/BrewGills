@@ -24,7 +24,7 @@ nav ul {
 }
 
 .infographic {
-  width:30%
+  width:30vw
 }
   
   
@@ -67,6 +67,6 @@ i#yt:hover {
     }
   
     .infographic {
-      width:100%
+      width:30vw
   }
 }
