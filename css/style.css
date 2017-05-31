@@ -23,12 +23,15 @@ nav ul {
   justify-content:space-around;
 }
 
-.img .infographic {
+.infographic {
   width:30%;
   padding:0px;
 }
-  
-  
+
+.nav {
+  height: 15vh
+}
+
 .w3-content {
   padding-top: 55px;
 }
