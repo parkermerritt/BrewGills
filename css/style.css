@@ -51,6 +51,12 @@ nav ul {
 
 #bp {height:45vh}
 
+#contact-info-list {
+  list-style-type: circle;
+  display: list-item;
+  margin-left: 50px; 
+}
+
 @media only screen and (max-width: 420px){
   #trio {width:90vw}
 
