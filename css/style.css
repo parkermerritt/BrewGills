@@ -51,6 +51,20 @@ nav ul {
 
 
 
+/* Style to enlarge blueprint image */
+.zoom-in img { 
+  height: 45vh; 
+  -webkit-transition: all 1s ease; 
+  -moz-transition: all 1s ease; 
+  -ms-transition: all 1s ease; 
+  transition: all 1s ease; 
+} 
+
+.zoom-in img:hover { 
+  height: 90vh; 
+} 
+/* End of bluepritn style */
+
 
 /* Style for Link to Store button */
 .border{
