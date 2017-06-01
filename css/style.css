@@ -76,7 +76,6 @@ button{
 
 .buttonBox{
   position:relative;
-  margin:1vw 3vw;
 }
 
 
@@ -97,6 +96,10 @@ button{
 #link-to-store:hover .border{
   width:200px;
   transform:translate(-100px, 0);
+}
+
+button:hover {
+  cursor: pointer;
 }
 /* End of button style */
 
