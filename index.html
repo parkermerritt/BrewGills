@@ -29,6 +29,7 @@
 <header class="w3-container w3-center" style="padding:128px;">
 <div class="w3-row-padding w3-container">
   <div class="w3-content">
+    <h1>The New Era of Shotgunning</h1>
      <img src="img\LedgeGill.jpg" id="header">
         <p class="w3-text-black">Sure, everyone loves spending time getting wasted, but nothing's 
            worse than wasted time. Little inconveniences can add up quickly during social hours, and nothing is 
@@ -60,10 +61,9 @@
 
 <div class="w3-row-padding w3-padding-small w3-container">
   <div class="w3-content">
-      <div class="w3-third w3-center" style="padding-top: 70px">
+      <div class="w3-third w3-center" style="padding-top: 75px">
        <p class="w3-text-grey">The BrewGill, our company’s namesake and patent-pending innovation, is a handy tool for quickly 
-          transporting beer from bottle to human. Although we at BrewGills have always envied our scaly aquatic brethren for their 
-          ability to breathe underwater, we’ve now eclipsed the limitations of our own biology with the power to inhale beer. Examine 
+          transporting beer from bottle to human. Open, shotgun, and identify your bottle of beer, all with a single device. Examine 
           for yourself the next leap forward in the tailgater evolution.
        </p>
       </div>
@@ -75,11 +75,15 @@
 <div class="w3-row-padding w3-padding-32 w3-container">
   <div class="w3-content">
       <div class="w3-center">
-       <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black w3-padding-large w3-large" id="link-to-store">Link to Store</button>
-       <!--  modal box (store notification) -->
+        <div id="link-to-store" class="buttonBox">
+          <button onclick="document.getElementById('id01').style.display='block'" class="w3-padding-large w3-large">Link to Store</button>
+          <div class="border"></div>
+          <div class="border"></div>
+        </div> 
+          <!--  modal box (store notification) -->
        <div id="id01" class="w3-modal" onclick="this.style.display='none'">
         <div class="w3-modal-content w3-animate-bottom">
-          <header class="w3-container w3-teal"> 
+          <header class="w3-container w3-red"> 
             <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
             <h2>Message from the BrewGills Team</h2>
           </header>
@@ -88,7 +92,7 @@
               construction. For now, be sure to place an order from our newest collection, which also happens to be the first release 
               of BrewGills T-Shirts!</p>
           </div>
-          <footer class="w3-container w3-teal">
+          <footer class="w3-container w3-red">
             <p>We're sorry for the inconvenience, but please check back soon for updates on our store.</p>
           </footer>
          </div>
