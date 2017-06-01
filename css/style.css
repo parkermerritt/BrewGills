@@ -49,15 +49,16 @@ nav ul {
 
 #trio {height:45vh}
 
-#bp {height: 45vh;}
-#bp {width: 90vw;}
-
-@media only screen and (min-height: 420px){
- #header-img {height:15vh}
-}
+#bp {height:45vh}
 
 @media only screen and (max-width: 420px){
   #trio {width:90vw}
+
+#bp {width:90vw}
+}
+@media only screen and (min-height: 420px){
+ #header-img {height:15vh}
+}
 
 /* Style for Link to Store button */
 .border{
