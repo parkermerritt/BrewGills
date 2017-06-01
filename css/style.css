@@ -49,16 +49,8 @@ nav ul {
 
 #trio {height:45vh}
 
-#bp {
-  height: 45vh;
-  width: 90vw;
-}
-
-#contact-info-list {
-  list-style-type: circle;
-  display: list-item;
-  margin-left: 50px; 
-}
+#bp {height: 45vh;}
+#bp {width: 90vw;}
 
 @media only screen and (min-height: 420px){
  #header-img {height:15vh}
