@@ -51,7 +51,11 @@ nav ul {
 
 #bp {height:45vh}
 
+@media only screen and (max-width: 700px){
+  #trio {width:90vw}
 
+#bp {width:90vw}
+}
 
 
 /* Style for Link to Store button */
