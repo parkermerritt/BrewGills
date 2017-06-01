@@ -56,7 +56,9 @@ nav ul {
 
 #bp {width:90vw}
 }
-
+@media only screen and (min-height: 420px){
+ #header-img {height:15vh}
+}
 
 /* Style for Link to Store button */
 .border{
