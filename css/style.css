@@ -1,5 +1,8 @@
 /* STYLE FOR ELEMENTS */
 h1,h2,h3,h4,h5,h6 {font-family: "Hind", sans-serif}
+h1 {
+  line-height: .9
+    }
 
 header {background-color: #72A3CB;}
 
