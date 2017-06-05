@@ -76,7 +76,10 @@ nav ul {
 
 .header-img {
   width: 100%;
-  padding-top:64px;
+  padding-top:90px;
+  padding-bottom:5px;
+  padding-left:0;
+  padding-right:0;
 }
 
 /* STYLE FOR ID'S */
