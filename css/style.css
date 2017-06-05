@@ -54,6 +54,7 @@ nav ul {
 
 .navicon {
   height:12vh;
+  z-index:2;
 }
 
 .spincap {
