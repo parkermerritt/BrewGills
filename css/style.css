@@ -38,7 +38,7 @@ nav ul {
 /* STYLE FOR CLASSES */
 .mainlogo {
   height:18%;
-  margin:-5px;
+  position:fixed;
 }
 
 .navicon {
