@@ -39,6 +39,7 @@ nav ul {
 .mainlogo {
   position:absolute;
   height:200px;
+  z-index:2;
 }
 
 .navicon {
