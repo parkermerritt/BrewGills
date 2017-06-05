@@ -82,7 +82,8 @@ nav ul {
 
 /* STYLE FOR ID'S */
 
-#trio {height:60vh}
+#trio {max-width:80%;
+max-height:80%;}
 
 #bp {height:55vh}
 
