@@ -74,7 +74,9 @@ nav ul {
    
 .w3-content {padding-top: 40px;}
 
-.header-img {width: 100%;
+.header-img {
+  width: 100%;
+  padding-top:64px;
 }
 
 /* STYLE FOR ID'S */
