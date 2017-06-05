@@ -49,7 +49,9 @@ nav ul {
 
 
 /* STYLE FOR ID'S */
-#header-img {height:25vh}
+#header-img {
+width:100%
+}
 
 #trio {height:45vh}
 
