@@ -53,8 +53,6 @@ nav ul {
   margin:-10;
 }
 
-
-
 .navicon {
   height:12vh;
   z-index:3;
@@ -70,7 +68,7 @@ nav ul {
 
 .footer-text {}
 
-.infographic {height:30vh}
+.infographic {height:40vh}
    
 .w3-content {padding-top: 40px;}
 
@@ -84,7 +82,7 @@ nav ul {
 
 /* STYLE FOR ID'S */
 
-#trio {height:45vh}
+#trio {height:50vh}
 
 #bp {height:45vh}
 
@@ -99,7 +97,7 @@ nav ul {
 /* Mobile */
 @media only screen and (max-width: 500px){
   #trio {width:100%;
-  margin:1;
+  margin:0;
   }
 
 #bp {width:90vw
