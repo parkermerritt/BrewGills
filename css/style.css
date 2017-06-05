@@ -37,7 +37,10 @@ nav ul {
 
 /* STYLE FOR CLASSES */
 .navicon {
-  height:15vh
+  height:12vh
+}
+.spincap {
+  height: 20vh
 }
 
 .fa-anchor,.fa-coffee {font-size:200px}
