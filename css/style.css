@@ -135,6 +135,7 @@ button{
   width:200px;
   height:80px;
   position:relative;
+  padding-bottom:8px;
   background:rgba(173, 173, 173, 0.35);
   text-transform:uppercase;
   color:rgba(224, 0, 0, 0.8);
