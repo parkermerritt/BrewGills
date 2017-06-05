@@ -36,6 +36,10 @@ nav ul {
 
 
 /* STYLE FOR CLASSES */
+.mainlogo {
+  height:10vh;
+}
+
 .navicon {
   height:12vh;
 }
@@ -58,9 +62,6 @@ nav ul {
 }
 
 /* STYLE FOR ID'S */
-#header-img {
-width:100%
-}
 
 #trio {height:45vh}
 
