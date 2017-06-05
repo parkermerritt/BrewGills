@@ -38,7 +38,7 @@ nav ul {
 
 /* STYLE FOR CLASSES */
 .mainlogodiv {
-  position:fixed;
+  position:absolute;
   z-index:2;
   top:0;
   padding:0;
