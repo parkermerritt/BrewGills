@@ -38,6 +38,7 @@ nav ul {
 /* STYLE FOR CLASSES */
 .mainlogo {
   position:fixed;
+  text-align:center;
   height:200px;
   z-index:2;
 }
