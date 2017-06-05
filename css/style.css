@@ -62,7 +62,9 @@ nav ul {
 }
 
 @media only screen and (max-width: 420px){
-  #trio {width:90vw}
+  #trio {width:100%;
+  margin:1;
+  }
 
 #bp {width:90vw}
 }
