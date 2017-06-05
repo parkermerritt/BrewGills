@@ -40,13 +40,15 @@ nav ul {
 .mainlogodiv {
   position:fixed;
   z-index:2;
-  top:-20;
+  top:0;
+  padding:0;
 }
 
 .mainlogo {
   height:170px;
     z-index:2;
-  top:-20;
+  top:0;
+  padding:0;
   
 }
 
