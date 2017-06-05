@@ -83,14 +83,25 @@ nav ul {
   margin:1;
   }
 
-#bp {width:90vw}
+#bp {width:90vw
 }
 
-#header-img [width:100%;
+#header-img {width:100%;
 margin:-2
 }
 
+.infoleft {
+  float:left;
+  z-index:-1
+}
 
+.inforight {
+  float:right;
+  z-index:1
+}
+
+}
+  
 /* comment out header @media 
 @media only screen and (min-height: 420px){
  #header-img {height:15vh}
