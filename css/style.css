@@ -59,7 +59,6 @@ nav ul {
   list-style-type: none;
   display: list-item;
   margin-left: 50px; 
-  font-size: 22px;
 }
 
 @media only screen and (max-width: 420px){
