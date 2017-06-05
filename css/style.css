@@ -46,6 +46,7 @@ nav ul {
 .mainlogo {
   height:170px;
     z-index:2;
+  top:0;
   
 }
 
