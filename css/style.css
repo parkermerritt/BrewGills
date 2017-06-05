@@ -36,11 +36,16 @@ nav ul {
 
 
 /* STYLE FOR CLASSES */
-.mainlogo {
+.mainlogodiv {
   position:fixed;
-  height:170px;
-  z-index:2;
+  z-index:1;
 }
+
+.mainlogo {
+  height:170px
+}
+
+
 
 .navicon {
   height:12vh;
