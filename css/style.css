@@ -36,6 +36,10 @@ nav ul {
 
 
 /* STYLE FOR CLASSES */
+.navicon {
+  height:15vh
+}
+
 .fa-anchor,.fa-coffee {font-size:200px}
 
 .body-text {color: black;}
