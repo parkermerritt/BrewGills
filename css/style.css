@@ -82,9 +82,9 @@ nav ul {
 
 /* STYLE FOR ID'S */
 
-#trio {height:50vh}
+#trio {height:60vh}
 
-#bp {height:45vh}
+#bp {height:55vh}
 
 #contact-info-list {
   list-style-type: none;
@@ -100,7 +100,7 @@ nav ul {
   margin:0;
   }
 
-#bp {width:90vw
+#bp {width:100vw
 }
 
 #header-img {width:100%;
@@ -136,6 +136,7 @@ button{
   height:80px;
   position:relative;
   padding-bottom:8px;
+  padding-top:2px;
   background:rgba(173, 173, 173, 0.35);
   text-transform:uppercase;
   color:rgba(224, 0, 0, 0.8);
