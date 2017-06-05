@@ -67,13 +67,21 @@ width:100%
   margin-left: 50px; 
 }
 
-@media only screen and (max-width: 420px){
+
+
+/* Mobile */
+@media only screen and (max-width: 500px){
   #trio {width:100%;
   margin:1;
   }
 
 #bp {width:90vw}
 }
+
+#header-img [width:100%;
+margin:-2
+}
+
 
 /* comment out header @media 
 @media only screen and (min-height: 420px){
