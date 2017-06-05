@@ -53,7 +53,10 @@ nav ul {
    
 .w3-content {padding-top: 40px;}
 
-
+.header-img {width: 100%;
+  padding-left:0px;
+  padding-right:0px;
+}
 
 /* STYLE FOR ID'S */
 #header-img {
