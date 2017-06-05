@@ -85,7 +85,8 @@ nav ul {
 #trio {max-width:100%;
 max-height:100%;}
 
-#bp {width:52vw}
+#bp {width:52vw;
+padding-top:0;}
 
 #contact-info-list {
   list-style-type: none;
