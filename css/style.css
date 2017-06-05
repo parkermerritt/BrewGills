@@ -55,8 +55,10 @@ nav ul {
 }
 
 .navicon {
-  height:12vh;
-  z-index:3;
+    height:22vh;
+  z-index:1;
+  margin:-28px;
+  padding-top: 7px;
 }
 
 .spincap {
