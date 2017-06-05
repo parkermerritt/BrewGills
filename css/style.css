@@ -70,6 +70,8 @@ width:100%
 
 #bp {width:90vw}
 }
+
+/* comment out header @media 
 @media only screen and (min-height: 420px){
  #header-img {height:15vh}
 }
