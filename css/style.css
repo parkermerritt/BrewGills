@@ -108,10 +108,13 @@ nav ul {
   }
 
   #bp {
-    width:93vw
     display: none;
   }
 
+  #side-blueprint {
+   width:95vw; 
+  }
+  
   #header-img {
     width:100%;
     margin:-2
