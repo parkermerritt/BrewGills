@@ -13,112 +13,102 @@ p {font-family: 'Ubuntu', sans-serif;}
 }
 
 ul {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
   display: flex;
-  flex-direction:row;
-  z-index:1;
+  flex-direction: row;
+  z-index: 1;
 }
 
 ul li {
   flex: 1 0 auto;
-  text-align:center;
-  z-index:2; 
+  text-align: center;
+  z-index: 2; 
 }
     
 nav ul {
-  flex-direction:row;
-  justify-content:space-around;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 
 
 /* STYLE FOR CLASSES */
 .mainlogodiv {
-  position:fixed;
-  z-index:2;
-  top:0;
-  padding:0;
-  margin:-5px;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  padding: 0;
+  margin: -5px;
 }
 
 .mainlogo {
-  height:150px;
-  z-index:2;
-  top:0;
-  padding:-5;
-  margin:-10px;
+  height: 150px;
+  z-index: 2;
+  top: 0;
+  padding: -5;
+  margin: -10px;
 }
 
 .navicon {
-  height:22vh;
-  z-index:1;
-  margin:-28px;
+  height: 22vh;
+  z-index: 1;
+  margin: -28px;
   padding-top: 7px;
 }
 
 
-.fa-anchor,.fa-coffee {font-size:200px}
+.fa-anchor,.fa-coffee {font-size: 200px}
 
 .body-text {color: black;}
 
-.infographic {height:40vh}
+.infographic {height: 40vh}
    
 .w3-content {padding-top: 40px;}
 
 .header-img {
   width: 100%;
-  padding-top:70px;
-  padding-bottom:5px;
-  margin-left:0;
-  margin-right:0;
+  padding-top: 70px;
+  padding-bottom: 5px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 
 /* STYLE FOR ID'S */
 #trio {
-  max-width:90%;
-  max-height:90%;
+  max-width: 90%;
+  max-height: 90%;
 }
 
 #bp {
-  width:52vw;
-  padding-top:0;
+  width: 52vw;
+  padding-top: 0;
 }
 
 #contact-info-list {
   list-style-type: none;
   display: list-item;
-  margin-left: 50px; 
+  margin-left: 70px; 
 }
 
 #spincap{ 
   right: 2rem;
-  width:10vw;
+  width: 10vw;
 }
 
 
 /* Mobile */
 @media only screen and (max-width: 500px){
   #trio {
-    width:100%;
-    margin:0;
+    width: 100%;
+    margin: 0;
   }
   
   #header-img {
-    width:100%;
-    margin:-2
-  }
-
-  .infoleft {
-    float:left;
-    z-index:-1
-  }
-
-  .inforight {
-    float:right;
-    z-index:1
+    width: 100%;
+    margin: -2
   }
 }
 
@@ -127,65 +117,66 @@ nav ul {
   #bp {
     display: none;
   }
+  
    #side-blueprint {
-   width:95vw; 
-    padding-top:5px;
-    padding-bottom:5px;
+    width: 95vw; 
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
 
 @media only screen and (min-width: 1025px){
  #side-blueprint {
-     display:none;
+     display: none;
   }
 }
 
 /* Style for Link to Store button */
 .border{
-    position:absolute;
-    background:none;
-    transition:all .5s ease-in-out;
+    position: absolute;
+    background: none;
+    transition: all .5s ease-in-out;
 }
 
 button{
-  width:200px;
-  height:80px;
-  position:relative;
-  padding-bottom:8px;
-  padding-top:2px;
-  background:rgba(173, 173, 173, 0.35);
-  text-transform:uppercase;
-  color:rgba(224, 0, 0, 0.8);
-  font-weight:700;
-  letter-spacing:1px;
-  border:none;
-  font-size:15px;
-  outline:none;
+  width: 200px;
+  height: 80px;
+  position: relative;
+  padding-bottom: 8px;
+  padding-top: 2px;
+  background: rgba(173, 173, 173, 0.35);
+  text-transform: uppercase;
+  color: rgba(224, 0, 0, 0.8);
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: none;
+  font-size: 15px;
+  outline: none;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .buttonBox{
-  position:relative;
+  position: relative;
 }
 
 
 #link-to-store>.border:nth-of-type(1){
-  top:0;
-  left:50%;
-  width:0;
-  border-top:1.5px solid rgba(224, 0, 0, 0.59);
+  top: 0;
+  left: 50%;
+  width: 0;
+  border-top: 1.5px solid rgba(224, 0, 0, 0.59);
 }
 
 #link-to-store>.border:nth-of-type(2){
-  bottom:0;
-  left:50%;
-  width:0;
-  border-bottom:1.5px solid rgba(224, 0, 0, 0.59);
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  border-bottom: 1.5px solid rgba(224, 0, 0, 0.59);
 }
 
 #link-to-store:hover .border{
-  width:200px;
-  transform:translate(-100px, 0);
+  width: 200px;
+  transform: translate(-100px, 0);
 }
 
 button:hover {
