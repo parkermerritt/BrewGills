@@ -61,9 +61,6 @@ nav ul {
   padding-top: 7px;
 }
 
-.spincap {
-  height: 15vh;
-}
 
 .fa-anchor,.fa-coffee {font-size:200px}
 
@@ -95,6 +92,11 @@ padding-top:0;}
   list-style-type: none;
   display: list-item;
   margin-left: 50px; 
+}
+
+
+#spincap{ right: 2rem;
+  width:10vw;
 }
 
 
