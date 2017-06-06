@@ -106,16 +106,6 @@ nav ul {
     width:100%;
     margin:0;
   }
-
-  #bp {
-    display: none;
-  }
-
-  #side-blueprint {
-   width:95vw; 
-    padding-top:5px;
-    padding-bottom:5px;
-  }
   
   #header-img {
     width:100%;
@@ -132,9 +122,20 @@ nav ul {
     z-index:1
   }
 }
-  
 
-@media only screen and (min-width: 500px){
+
+@media only screen and (max-width: 600px){ 
+  #bp {
+    display: none;
+  }
+   #side-blueprint {
+   width:95vw; 
+    padding-top:5px;
+    padding-bottom:5px;
+  }
+}
+
+@media only screen and (min-width: 600px){
  #side-blueprint {
      display:none;
     }
