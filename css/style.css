@@ -1,8 +1,6 @@
 /* STYLE FOR ELEMENTS */
 h1,h2,h3,h4,h5,h6 {font-family: "Hind", sans-serif}
-h1 {
-  line-height: .9
-    }
+h1 {line-height: .9}
 
 header {background-color: #72A3CB;}
 /* img class
@@ -32,7 +30,6 @@ ul li {
 nav ul {
   flex-direction:row;
   justify-content:space-around;
-  
 }
 
 
@@ -94,6 +91,7 @@ padding-top:0;}
   margin-left: 50px; 
 }
 
+
 #spincap{ right: 2rem;
   width:10vw;
 }
@@ -101,38 +99,38 @@ padding-top:0;}
 
 /* Mobile */
 @media only screen and (max-width: 500px){
-  #trio {width:100%;
-  margin:0;
+  #trio {
+    width:100%;
+    margin:0;
   }
 
-#bp {width:93vw;
-  display:none;
+  #bp {
+    width:93vw
+  }
+
+  #header-img {
+    width:100%;
+    margin:-2
+  }
+
+  .infoleft {
+    float:left;
+    z-index:-1
+  }
+
+  .inforight {
+    float:right;
+    z-index:1
+  }
+
+  #bp {
+    display:none;
+  }
 }
-
-#header-img {width:100%;
-margin:-2
-}
-
-.infoleft {
-  float:left;
-  z-index:-1
-}
-
-.inforight {
-  float:right;
-  z-index:1
-}
-
-}
-
-
-
   
-
-@media only screen and (min-width: 500px){
- #side-blueprint {
-   display:none;
-  }
+/* comment out header @media 
+@media only screen and (min-height: 420px){
+ #header-img {height:15vh}
 }
 
 /* Style for Link to Store button */
