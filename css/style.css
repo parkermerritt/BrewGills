@@ -128,10 +128,18 @@ margin:-2
   }
   
 }
+
+
+
+
+
+
   
-/* comment out header @media 
-@media only screen and (min-height: 420px){
- #header-img {height:15vh}
+
+@media only screen and (min-height: 500px){
+ #side-blueprint {
+   display:none;
+  }
 }
 
 /* Style for Link to Store button */
