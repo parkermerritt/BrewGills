@@ -45,14 +45,14 @@ nav ul {
 
 .mainlogo {
   height:150px;
-    z-index:2;
+  z-index:2;
   top:0;
   padding:-5;
   margin:-10px;
 }
 
 .navicon {
-    height:22vh;
+  height:22vh;
   z-index:1;
   margin:-28px;
   padding-top: 7px;
@@ -62,8 +62,6 @@ nav ul {
 .fa-anchor,.fa-coffee {font-size:200px}
 
 .body-text {color: black;}
-
-.footer-text {}
 
 .infographic {height:40vh}
    
@@ -79,11 +77,15 @@ nav ul {
 
 /* STYLE FOR ID'S */
 
-#trio {max-width:90%;
-max-height:90%;}
+#trio {
+  max-width:90%;
+  max-height:90%;
+}
 
-#bp {width:52vw;
-padding-top:0;}
+#bp {
+  width:52vw;
+  padding-top:0;
+}
 
 #contact-info-list {
   list-style-type: none;
@@ -92,7 +94,8 @@ padding-top:0;}
 }
 
 
-#spincap{ right: 2rem;
+#spincap{ 
+  right: 2rem;
   width:10vw;
 }
 
@@ -106,6 +109,7 @@ padding-top:0;}
 
   #bp {
     width:93vw
+    display: none;
   }
 
   #header-img {
@@ -122,15 +126,13 @@ padding-top:0;}
     float:right;
     z-index:1
   }
-
-  #bp {
-    display:none;
-  }
 }
   
-/* comment out header @media 
-@media only screen and (min-height: 420px){
- #header-img {height:15vh}
+
+@media only screen and (min-width: 500px){
+ #side-blueprint {
+     display:none;
+    }
 }
 
 /* Style for Link to Store button */
@@ -196,8 +198,8 @@ i#twit:hover {color: #00aced;}
 i#yt:hover {color: #ff0000;}
 
 #sc, #ig, #fb, #twit, #yt {
-    cursor: pointer;
-    transition: 0.3s;
+  cursor: pointer;
+  transition: 0.3s;
 }
 /* End of Social Media Icons */
 
@@ -205,7 +207,5 @@ i#yt:hover {color: #ff0000;}
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
-    .modal-content {
-        width: 100%;
-    }  
+  .modal-content {width: 100%;}  
 }
