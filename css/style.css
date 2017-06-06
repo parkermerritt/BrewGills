@@ -75,8 +75,8 @@ nav ul {
   margin-right:0;
 }
 
-/* STYLE FOR ID'S */
 
+/* STYLE FOR ID'S */
 #trio {
   max-width:90%;
   max-height:90%;
@@ -92,7 +92,6 @@ nav ul {
   display: list-item;
   margin-left: 50px; 
 }
-
 
 #spincap{ 
   right: 2rem;
@@ -138,7 +137,7 @@ nav ul {
 @media only screen and (min-width: 600px){
  #side-blueprint {
      display:none;
-    }
+  }
 }
 
 /* Style for Link to Store button */
@@ -207,6 +206,8 @@ i#yt:hover {color: #ff0000;}
   cursor: pointer;
   transition: 0.3s;
 }
+
+#snapcode {width: 30vw;}
 /* End of Social Media Icons */
 
 
