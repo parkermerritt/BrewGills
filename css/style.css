@@ -113,6 +113,8 @@ nav ul {
 
   #side-blueprint {
    width:95vw; 
+    padding-top:5px;
+    padding-bottom:5px;
   }
   
   #header-img {
