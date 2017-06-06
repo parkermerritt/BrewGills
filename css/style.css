@@ -123,6 +123,10 @@ margin:-2
   z-index:1
 }
 
+ #bp {
+   display:none;
+  }
+  
 }
   
 /* comment out header @media 
