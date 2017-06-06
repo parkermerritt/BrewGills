@@ -94,7 +94,6 @@ padding-top:0;}
   margin-left: 50px; 
 }
 
-
 #spincap{ right: 2rem;
   width:10vw;
 }
@@ -106,7 +105,8 @@ padding-top:0;}
   margin:0;
   }
 
-#bp {width:93vw
+#bp {width:93vw;
+  display:none;
 }
 
 #header-img {width:100%;
@@ -123,20 +123,13 @@ margin:-2
   z-index:1
 }
 
- #bp {
-   display:none;
-  }
-  
 }
 
 
 
-
-
-
   
 
-@media only screen and (min-height: 500px){
+@media only screen and (min-width: 500px){
  #side-blueprint {
    display:none;
   }
