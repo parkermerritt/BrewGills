@@ -44,10 +44,18 @@ nav ul {
 
 }
 
+.infographic {
+      height:20vh;
+      min-height:140px;
+    }
+
 
 
 /* STYLE FOR ID'S */
-#header-img {height: 25vh}
+#header-img {
+  height: 25vh
+  min-height:300px;
+}
 
 #trio {height: 45vh}
 
@@ -69,6 +77,12 @@ nav ul {
     height: 15vh;
     width:100%;
   }
+}
+
+#spincap {
+  height:10vh;
+  min-height:75px;
+  max-height: 200px;
 }
 
 
