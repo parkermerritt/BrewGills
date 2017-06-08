@@ -4,12 +4,6 @@ h1 {line-height: .9}
 
 header {background-color: #72A3CB;}
 
- img {
-  height:10vh;
-   min-height: 80px;
-   max-height: 150px;
-}
-
 p {font-family: 'Ubuntu', sans-serif;}
 
 .w3-bar,h1,button {font-family: "Chau Philomene One", sans-serif}
@@ -42,6 +36,13 @@ nav ul {
 .infographic {height: 30vh}
    
 .w3-content {padding-top: 40px;}
+
+.nav-img {
+  height:10vh;
+  min-height: 80px;
+  max-height: 150px; 
+
+}
 
 
 
@@ -149,8 +150,15 @@ i#yt:hover {color: #ff0000;}
 /* Styling for Ipad */
 @media (min-width: 700px ) {
 @media (max-width: 1025px) {
-    #bp {height:30vh;}
-    .infographic {height:20vh;}
+    #bp {
+      height:30vh;
+      min-height: 250px;
+    }
+
+    .infographic {
+      height:20vh;
+      min-height:140px;
+    }
 
 
 } }
