@@ -138,3 +138,12 @@ i#yt:hover {color: #ff0000;}
 @media only screen and (max-width: 700px) {
     .modal-content {width: 100%;}  
 }
+
+/* Styling for Ipad */
+@media (min-width: 700px ) {
+@media (max-width: 1025px) {
+    #bp {height:30vh;}
+    .infographic {height:20vh;}
+
+
+} }
