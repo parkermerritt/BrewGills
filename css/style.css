@@ -4,7 +4,11 @@ h1 {line-height: .9}
 
 header {background-color: #72A3CB;}
 
-img {height:10vh;}
+ img {
+  height:10vh;
+   min-height: 80px;
+   max-height: 150px;
+}
 
 p {font-family: 'Ubuntu', sans-serif;}
 
@@ -59,8 +63,11 @@ nav ul {
   #bp {width: 90vw}
 }
 
-@media only screen and (min-height: 420px) {
-  #header-img {height: 15vh}
+@media only screen and (min-width: 420px) {
+  #header-img {
+    height: 15vh;
+    width:100%;
+  }
 }
 
 
