@@ -1,8 +1,6 @@
 /* STYLE FOR ELEMENTS */
 h1,h2,h3,h4,h5,h6 {font-family: "Hind", sans-serif}
-h1 {
-  line-height: .9
-    }
+h1 {line-height: .9}
 
 header {background-color: #72A3CB;}
 
@@ -10,50 +8,45 @@ img {height:10vh;}
 
 p {font-family: 'Ubuntu', sans-serif;}
 
-.w3-bar,h1,button {
-  font-family: "Chau Philomene One", sans-serif
-}
+.w3-bar,h1,button {font-family: "Chau Philomene One", sans-serif}
 
 ul {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
 }
 
 ul li {
   flex: 1 0 auto;
-  text-align:center;
-  
+  text-align: center;
 }
     
 nav ul {
-  flex-direction:row;
-  justify-content:space-around;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 
 
 /* STYLE FOR CLASSES */
-.fa-anchor,.fa-coffee {font-size:200px}
+.fa-anchor,.fa-coffee {font-size: 200px}
 
 .body-text {color: black;}
 
-.footer-text {}
-
-.infographic {height:30vh}
+.infographic {height: 30vh}
    
 .w3-content {padding-top: 40px;}
 
 
 
 /* STYLE FOR ID'S */
-#header-img {height:25vh}
+#header-img {height: 25vh}
 
-#trio {height:45vh}
+#trio {height: 45vh}
 
-#bp {height:45vh}
+#bp {height: 45vh}
 
 #contact-info-list {
   list-style-type: none;
@@ -61,64 +54,62 @@ nav ul {
   margin-left: 50px; 
 }
 
-@media only screen and (max-width: 420px){
-  #trio {width:90vw}
+@media only screen and (max-width: 420px) {
+  #trio {width: 90vw}
+  #bp {width: 90vw}
+}
 
-#bp {width:90vw}
+@media only screen and (min-height: 420px) {
+  #header-img {height: 15vh}
 }
-@media only screen and (min-height: 420px){
- #header-img {height:15vh}
-}
+
+
 
 /* Style for Link to Store button */
-.border{
-    position:absolute;
-    background:none;
-    transition:all .5s ease-in-out;
+.border {
+    position: absolute;
+    background: none;
+    transition: all .5s ease-in-out;
 }
 
-button{
-  width:200px;
-  height:80px;
-  position:relative;
-  background:rgba(173, 173, 173, 0.35);
-  text-transform:uppercase;
-  color:rgba(224, 0, 0, 0.8);
-  font-weight:700;
-  letter-spacing:1px;
-  border:none;
-  font-size:15px;
-  outline:none;
+button {
+  width: 200px;
+  height: 80px;
+  position: relative;
+  background: rgba(173, 173, 173, 0.35);
+  text-transform: uppercase;
+  color: rgba(224, 0, 0, 0.8);
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: none;
+  font-size: 15px;
+  outline: none;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.buttonBox{
-  position:relative;
+.buttonBox{position:relative;}
+
+
+#link-to-store>.border:nth-of-type(1) {
+  top: 0;
+  left: 50%;
+  width: 0;
+  border-top: 1.5px solid rgba(224, 0, 0, 0.59);
 }
 
-
-#link-to-store>.border:nth-of-type(1){
-  top:0;
-  left:50%;
-  width:0;
-  border-top:1.5px solid rgba(224, 0, 0, 0.59);
+#link-to-store>.border:nth-of-type(2) {
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  border-bottom: 1.5px solid rgba(224, 0, 0, 0.59);
 }
 
-#link-to-store>.border:nth-of-type(2){
-  bottom:0;
-  left:50%;
-  width:0;
-  border-bottom:1.5px solid rgba(224, 0, 0, 0.59);
-}
-
-#link-to-store:hover .border{
-  width:200px;
+#link-to-store:hover .border {
+  width: 200px;
   transform:translate(-100px, 0);
 }
 
-button:hover {
-  cursor: pointer;
-}
+button:hover {cursor: pointer;}
 /* End of button style */
 
 
@@ -134,13 +125,13 @@ i#yt:hover {color: #ff0000;}
     cursor: pointer;
     transition: 0.3s;
 }
+
+#snapcode {width: 30vw;}
 /* End of Social Media Icons */
 
 
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-    .modal-content {
-        width: 100%;
-    }  
+@media only screen and (max-width: 700px) {
+    .modal-content {width: 100%;}  
 }
