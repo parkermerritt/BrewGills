@@ -48,6 +48,8 @@ nav ul {
 
 #bp {height: 45vh}
 
+#spincap {height: 7vh;}
+
 #contact-info-list {
   list-style-type: none;
   display: list-item;
@@ -126,7 +128,10 @@ i#yt:hover {color: #ff0000;}
     transition: 0.3s;
 }
 
-#snapcode {width: 30vw;}
+#snapcode {
+  height: 50vh;
+  width: 25vw;
+}
 /* End of Social Media Icons */
 
 
