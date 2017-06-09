@@ -53,8 +53,9 @@ nav ul {
 
 /* STYLE FOR ID'S */
 #header-img {
-  height: 25vh
-  min-height:300px;
+  width:100%;
+  max-width:750px;
+  min-height:100px;
 }
 
 #trio {height: 45vh}
