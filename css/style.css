@@ -59,6 +59,11 @@ header {margin-top: 7vh;}
   max-width:750px;
   min-height:100px;
   height:auto;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-radius: 10px;
+  border-width: 8px;
+  margin-bottom: 10px;
 
 }
 
