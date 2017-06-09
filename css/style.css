@@ -26,7 +26,7 @@ nav ul {
   justify-content: space-around;
 }
 
-header {margin-top: 10vh;}
+header {margin-top: 7vh;}
 
 
 /* STYLE FOR CLASSES */
@@ -177,6 +177,10 @@ i#yt:hover {color: #ff0000;}
     .infographic {
       height:20vh;
       min-height:140px;
+    }
+
+    #header-img {
+      min-height: 200px;
     }
 } }
 
