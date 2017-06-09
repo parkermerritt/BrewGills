@@ -26,6 +26,7 @@ nav ul {
   justify-content: space-around;
 }
 
+header {margin-top: 10vh;}
 
 
 /* STYLE FOR CLASSES */
@@ -53,9 +54,12 @@ nav ul {
 
 /* STYLE FOR ID'S */
 #header-img {
+
   width:100%;
   max-width:750px;
   min-height:100px;
+  height:auto;
+
 }
 
 #trio {height: 45vh}
@@ -174,6 +178,13 @@ i#yt:hover {color: #ff0000;}
       height:20vh;
       min-height:140px;
     }
-
-
 } }
+
+/* Styling for Desktop */
+
+@media (min-width: 1200px) {
+
+  #header-img {
+    min-height:270px;
+  }
+}
