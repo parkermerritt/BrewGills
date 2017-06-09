@@ -184,14 +184,12 @@ i#yt:hover {color: #ff0000;}
       min-height:140px;
     }
 
-    #header-img {
-      min-height: 200px;
-    }
+   
 } }
 
 /* Styling for Desktop */
 
-@media (min-width: 1200px) {
+@media (min-width: 700px) {
 
   #header-img {
     min-height:270px;
