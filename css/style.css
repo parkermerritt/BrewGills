@@ -198,7 +198,7 @@ i#yt:hover {color: #ff0000;}
 
 /* Code to hide/show #bg img (Original author: Parker) */
 
-@media only screen and (max-width: 1024px) { 
+@media only screen and (max-width: 419px) { 
    #bp {    
     display: none;    
    }    
@@ -210,7 +210,7 @@ i#yt:hover {color: #ff0000;}
   }
 }
 
-@media only screen and (min-width: 1025px){
+@media only screen and (min-width: 420px){
  #side-blueprint {    
      display: none;   
   }   
