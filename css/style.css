@@ -195,3 +195,23 @@ i#yt:hover {color: #ff0000;}
     min-height:270px;
   }
 }
+
+/* Code to hide/show #bg img (Original author: Parker) */
+
+@media only screen and (max-width: 1024px) { 
+   #bp {    
+    display: none;    
+   }    
+      
+   #side-blueprint {    
+    width: 95vw;    
+    padding-top: 5px;   
+    padding-bottom: 5px;    
+  }
+}
+
+@media only screen and (min-width: 1025px){
+ #side-blueprint {    
+     display: none;   
+  }   
+ }
