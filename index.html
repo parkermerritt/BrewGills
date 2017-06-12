@@ -35,20 +35,19 @@
 
   <!-- Header -->
 <header class="w3-container w3-center w3-padding-32" style="padding:180px 16x;">
+
 <div class="w3-container">
-  <div class="w3-content">
-    <img src="img\LedgeGill.jpg" id="header-img">
-     <h1>The New Era of Shotgunning</h1>
-      <p class="w3-text-black">Sure, everyone loves spending time getting wasted, but nothing's
-         worse than wasted time. Little inconveniences can add up quickly during social hours, and nothing is
-         worse than spending the wildest moments of a party drunkenly nursing your wounds from a shotgun gone wrong. For this reason,
-         the BrewGills team is dedicated to bringing better drinking tools to the savviest of degenerates. We’ve engineered a better
-         shotgunning experience from the glass up, providing drinkers with a tool with the capability to unseal, enhance, and even
-         customize the standard bottle of beer. With more “Bingineering” innovations coming down our pipeline, our team encourages
-         you to dive in, go with the flow, and learn to “Drink Like a Fish.”
-      </p>
+
+  <div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="img/GenerationalBG.jpg" style="width:100%">
+  <img class="mySlides" src="img/6PAckBG.jpg" style="width:100%">
+  <img class="mySlides" src="img/WaubergBG.jpg" style="width:100%">
   </div>
+
+
+     <h1>The New Era of Shotgunning</h1>   
 </div>
+
 </header>
 
    <!-- First Grid (Infographics) -->
@@ -187,6 +186,22 @@ function myFunction() {
     } else {
         x.className = x.className.replace(" w3-show", "");
     }
+}
+
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 </script>
 </body>

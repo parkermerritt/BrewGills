@@ -224,3 +224,10 @@ i#yt:hover {color: #ff0000;}
      display: none;   
   }   
  }
+
+.mySlides {
+  display:none;
+  max-height: 400px;
+  max-width: 500px;
+  margin-bottom: 40px;
+}
