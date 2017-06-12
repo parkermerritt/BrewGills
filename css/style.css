@@ -2,7 +2,10 @@
 h1,h2,h3,h4,h5,h6 {font-family: "Hind", sans-serif}
 h1 {line-height: .9}
 
-header {background-color: #72A3CB;}
+header {
+  background-color: #72A3CB;
+  margin-top: 7vh;
+}
 
 p {font-family: 'Ubuntu', sans-serif;}
 
@@ -20,13 +23,11 @@ ul li {
   flex: 1 0 auto;
   text-align: center;
 }
-    
+
 nav ul {
   flex-direction: row;
   justify-content: space-around;
 }
-
-header {margin-top: 7vh;}
 
 
 /* STYLE FOR CLASSES */
@@ -35,26 +36,25 @@ header {margin-top: 7vh;}
 .body-text {color: black;}
 
 .infographic {height: 30vh}
-   
+
 .w3-content {padding-top: 40px;}
 
 .nav-img {
   height:10vh;
   min-height: 80px;
-  max-height: 150px; 
+  max-height: 150px;
 
 }
 
 .infographic {
       height:20vh;
       min-height:200px;
-    }
+}
 
 
 
 /* STYLE FOR ID'S */
 #header-img {
-
   width:100%;
   max-width:750px;
   min-height:100px;
@@ -64,8 +64,9 @@ header {margin-top: 7vh;}
   border-radius: 10px;
   border-width: 8px;
   margin-bottom: 10px;
-
 }
+
+#merch-header {margin-top: 0px;}
 
 #trio {height: 45vh}
 
@@ -74,7 +75,7 @@ header {margin-top: 7vh;}
 #contact-info-list {
   list-style-type: none;
   display: list-item;
-  margin-left: 50px; 
+  margin-left: 50px;
 }
 
 @media only screen and (max-width: 420px) {
@@ -168,25 +169,25 @@ i#yt:hover {color: #ff0000;}
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
-    .modal-content {width: 100%;}  
+    .modal-content {width: 100%;}
 }
 
 /* Styling for Ipad */
 @media (min-width: 700px ) {
-@media (max-width: 1025px) {
-    #bp {
-      height:35vh;
-      min-height: 250px;
-    }
+  @media (max-width: 1025px) {
+      #bp {
+        height:35vh;
+        min-height: 250px;
+      }
 
-    .infographic {
-      height:20vh;
-      min-height:140px;
-    }
-} }
+      .infographic {
+        height:20vh;
+        min-height:140px;
+      }
+  } 
+}
 
 /* Styling for Desktop */
-
 @media (min-width: 700px) {
   #header-img {
     min-height:270px;
@@ -202,28 +203,20 @@ i#yt:hover {color: #ff0000;}
 
 
 /* Code to hide/show #bg img (Original author: Parker) */
+@media only screen and (max-width: 419px) {
+   #bp {
+    display: none;
+   }
 
-@media only screen and (max-width: 419px) { 
-   #bp {    
-    display: none;    
-   }    
-      
-   #side-blueprint {    
-    width: 95vw;    
-    padding-top: 5px;   
-    padding-bottom: 5px;    
+   #side-blueprint {
+    width: 95vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
 
 @media only screen and (min-width: 420px){
- #side-blueprint {    
-     display: none;   
-  }   
+ #side-blueprint {
+     display: none;
+  }
  }
-
-.mySlides {
-  display:none;
-  max-height: 400px;
-  max-width: 500px;
-  margin-bottom: 40px;
-}
