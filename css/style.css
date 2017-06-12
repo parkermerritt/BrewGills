@@ -175,7 +175,7 @@ i#yt:hover {color: #ff0000;}
 @media (min-width: 700px ) {
 @media (max-width: 1025px) {
     #bp {
-      height:30vh;
+      height:35vh;
       min-height: 250px;
     }
 
@@ -195,6 +195,15 @@ i#yt:hover {color: #ff0000;}
     min-height:270px;
   }
 }
+
+@media (min-width: 1200px) {
+
+ #bp {
+      height:40vh;
+      min-height: 400px;
+    }
+}
+
 
 /* Code to hide/show #bg img (Original author: Parker) */
 
