@@ -90,7 +90,7 @@ header {margin-top: 7vh;}
 }
 
 #spincap {
-  height:10vh;
+  height:15vh;
   min-height:75px;
   max-height: 200px;
 }
@@ -183,21 +183,17 @@ i#yt:hover {color: #ff0000;}
       height:20vh;
       min-height:140px;
     }
-
-   
 } }
 
 /* Styling for Desktop */
 
 @media (min-width: 700px) {
-
   #header-img {
     min-height:270px;
   }
 }
 
 @media (min-width: 1200px) {
-
  #bp {
       height:40vh;
       min-height: 400px;
