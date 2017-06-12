@@ -11,6 +11,7 @@
 <link rel="stylesheet" type="text/css" href="css\style.css">
 <link rel="icon" type="image/png" href="img/SocialSwirlCap.png">
 <script src="js\script.js"></script>
+
 <body>
   <!-- Nav Bar -->
 <div class="w3-top">
@@ -24,26 +25,24 @@
 </div>
   
   <!-- Header -->
-<header class="w3-container w3-center " style="padding:128px 16px;">
-  
+<header class="w3-container w3-center" style="padding:128px 16px;" id="merch-header">
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
-      <div class="w3-center">
-        <div class="w3-card-4 w-center" style="width:100%;">
-    <header class="w3-container w3-grey w3-text-white">
-      <h1>REEL TIME CINEMAS: COMING SOON</h1>
-    </header>
-
-    <div class="w3-container w3-light-grey">
-      <p>Check back soon for product updates, footage from our events, and other exclusive behind-the-scenes content!
-</p>
-    </div>
+    <div class="w3-center">
+      <div class="w3-card-4 w-center" style="width:100%;">
+        <header class="w3-container w3-grey w3-text-white">
+          <h1>REEL TIME CINEMAS: COMING SOON</h1>
+        </header>
+        <div class="w3-container w3-light-grey">
+          <p>Check back soon for product updates, footage from our events, and other exclusive behind-the-scenes content!
+          </p>
+        </div>
       </div>
     </div>
   </div>
-  
+</div>  
 </header>
-<body>
+
   
   <!-- First Grid --> <!--
 <div class="w3-row-padding w3-padding-64 w3-container">
@@ -82,5 +81,20 @@
     </div>
   </div>
 -->
- </body>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-center">
+ <div class="w3-xlarge w3-padding-24">
+   <a href="https://www.facebook.com/BrewGills/"><i id="fb" class="fa fa-facebook-official"></i></a>
+   <a href="https://www.instagram.com/brewgills/"><i id="ig" class="fa fa-instagram"></i></a>
+   <i onclick="document.getElementById('modal01').style.display='block'" id="sc" class="fa fa-snapchat"></i>
+     <div id="modal01" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+       <img class="w3-modal-content" id="snapcode" src="img\BrewGills_Snapcode.png">
+     </div>
+   <a href="https://twitter.com/BrewGills"><i id="twit" class="fa fa-twitter"></i></a>
+   <a href="https://www.youtube.com/channel/UCUhG06MAbRaB-Crjb1uypcg"><i id="yt" class="fa fa-youtube-play"></i></a>
+ </div>
+</footer>
+  
+</body>
 </html>
