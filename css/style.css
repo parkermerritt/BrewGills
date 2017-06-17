@@ -62,18 +62,6 @@ header h1 {
 
 
 /* STYLE FOR ID'S */
-#header-img {
-  width:100%;
-  max-width:750px;
-  min-height:100px;
-  height:auto;
-  border-style: solid;
-  border-color: #FFFFFF;
-  border-radius: 10px;
-  border-width: 8px;
-  margin-bottom: 10px;
-}
-
 #merch-header {margin-top: 0px;}
 
 #trio {height: 45vh}
@@ -239,6 +227,24 @@ i#yt:hover {color: #ff0000;}
 }
 
 .slide-img {
-    max-width: 900px;
+    max-width: 1024px;
 
 }
+
+
+  .slide-img {
+    margin-top: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 1025px) {
+  .slide-img {
+    margin-top: 0;
+   border-style: none;
+  }
+
+}
+
