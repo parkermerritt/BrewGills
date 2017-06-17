@@ -7,7 +7,13 @@ header {
   margin-top: 7vh;
 }
 
-p {font-family: 'Ubuntu', sans-serif;}
+p {
+  font-family: 'Ubuntu', sans-serif;
+  max-width:500px;
+  text-align: center;
+  margin:auto;
+}
+
 
 .w3-bar,h1,button {font-family: "Chau Philomene One", sans-serif}
 
@@ -30,7 +36,7 @@ nav ul {
 }
 
 header h1 {
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 /* STYLE FOR CLASSES */
 .fa-anchor,.fa-coffee {font-size: 200px}
