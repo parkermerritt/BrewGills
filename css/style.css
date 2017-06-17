@@ -36,7 +36,7 @@ nav ul {
 }
 
 header h1 {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 /* STYLE FOR CLASSES */
 .fa-anchor,.fa-coffee {font-size: 200px}
@@ -233,7 +233,7 @@ i#yt:hover {color: #ff0000;}
 /* Style for Slideshow */
 
 .mySlides {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     
     
 }
