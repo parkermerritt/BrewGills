@@ -74,6 +74,13 @@ div.transparent-box {
   background-size: cover;
 }
 
+.parallax-tshirt {
+  background-image: url("../img/tshirt-parallax.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 /* STYLE FOR ID'S */
 #merch-header {margin-top: 0px;}
@@ -167,6 +174,7 @@ i#yt:hover {color: #ff0000;}
 #sc, #ig, #fb, #twit, #yt {
   cursor: pointer;
   transition: 0.3s;
+  color: #464845;
 }
 
 #snapcode {
@@ -185,15 +193,15 @@ i#yt:hover {color: #ff0000;}
 /* Styling for Ipad */
 @media (min-width: 700px ) {
   @media (max-width: 1025px) {
-      #bp {
-        height: 35vh;
-        min-height: 250px;
-      }
+    #bp {
+      height: 35vh;
+      min-height: 250px;
+    }
 
-      .infographic {
-        height: 20vh;
-        min-height: 140px;
-      }
+   .infographic {
+      height: 20vh;
+      min-height: 140px;
+    }
   }
 }
 
@@ -233,7 +241,6 @@ i#yt:hover {color: #ff0000;}
 
 
 /* Style for Slideshow */
-
 .mySlides {margin-bottom: 40px;}
 
 .slide-img {max-width: 1024px;}
@@ -252,3 +259,73 @@ i#yt:hover {color: #ff0000;}
    border-style: none;
   }
 }
+/* End of Slideshow Style */
+
+
+/* ======= Style for Reel-Time Table ======= */
+#table-heading {
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+  padding-top: 15px;
+}
+table {
+  width:100%;
+  table-layout: fixed;
+}
+.tbl-header {
+  background-color: rgba(255,255,255,0.3);
+ }
+.tbl-content {
+  height:300px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+th {
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+}
+td {
+  padding: 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+
+/* demo styles */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+#table-color{
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  font-family: 'Roboto', sans-serif;
+}
+section{
+  margin: 50px;
+}
+
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+/* ======= End of Reel-Time Table ======= */
