@@ -13,17 +13,15 @@
 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js></script>   
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js"></script>
 <script src="js\script.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-100787675-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 
 <!-- Favicon -->
@@ -33,7 +31,7 @@
 
   <!-- Nav Bar -->
 <div class="w3-top">
-  <div class="w3-bar w3-card-2 w3-center-align w3-large w3-gray">
+  <div class="w3-bar w3-card-2 w3-center-align w3-large" style="background-color: #333333">
    <ul class="w3-center-align">
      <li class="w3-right-align"><a href="media.html"><img src="img\MenuCapV2.png" alt="link to media page" class="nav-img"></a></li>
      <li><a href="index.html"><img src="img\BGbonesLogoTrans.png" alt="link to home page" class="nav-img"></a></li>
@@ -43,10 +41,9 @@
 </div>
 
   <!-- Header -->
-<header class="w3-container w3-center " style="padding:30px 0px;">
- 
-<!-- Slideshow -->
+<header class="w3-container w3-center parallax" style="padding:30px 0px;">
 
+    <!-- Slideshow -->
      <div class="mySlides w3-display-container w3-center">
         <img src="img/BrewGill9.jpeg" style="width:100%"
         class="slide-img">
@@ -69,17 +66,20 @@
       </div>
     </div>
 
+  <div class="transparent-box">
     <h1>The New Era of Shotgunning</h1>
+    <p class="w3-padding-small">We’ve engineered a better
+       shotgunning experience from the glass up, providing drinkers with a tool with the capability to unseal, enhance, and even
+       customize the standard bottle of beer. With more “Bingineering” innovations coming down our pipeline, our team encourages
+       you to dive in, go with the flow, and learn to “Drink Like a Fish.”
+    </p>
+  </div>
 
-    <p class="w3-padding-small">We’ve engineered a better 
-         shotgunning experience from the glass up, providing drinkers with a tool with the capability to unseal, enhance, and even 
-         customize the standard bottle of beer. With more “Bingineering” innovations coming down our pipeline, our team encourages 
-         you to dive in, go with the flow, and learn to “Drink Like a Fish.”</p>
 
-  
 </header>
-  
-   <!-- First Grid (Infographics) -->
+
+   <!-- First Grid (Infographics & Blueprint) -->
+<section>
 <div class="w3-row-padding w3-padding-small w3-container">
   <div class="w3-content">
     <div class="w3-third w3-center">
@@ -98,7 +98,7 @@
 <div class="w3-row-padding w3-padding-small w3-container">
   <div class="w3-content">
       <div class="w3-third w3-center" style="padding-top: 30px">
-       <p class="w3-text-grey">The BrewGill, our company’s namesake and patent-pending innovation, is a handy tool for quickly
+       <p style="color: #333333">The BrewGill, our company’s namesake and patent-pending innovation, is a handy tool for quickly
           transporting beer from bottle to human. Open, shotgun, and identify your bottle of beer, all with a single device. Examine
           for yourself the next leap forward in the tailgater evolution.
        </p>
@@ -136,6 +136,8 @@
     <!-- end modal -->
   </div>
 </div>
+</section>
+
 
 <!-- Second Grid (T-shirt pre-orders) soon to be event? -->
 <div class="w3-light-grey w3-container w3-center">
@@ -167,11 +169,11 @@
 
 
   <!-- Third Grid (About Us) -->
-<div class="w3-container w3-black w3-center w3-opacity">
+<div class="w3-container w3-center" style="background-color: #091A32">
     <div class="w3-row-padding w3-container w3-padding-32">
         <div class="w3-third w3-center">
-          <h1 class="w3-xlarge">About Us</h1>
-          <p class="w3-text-grey">The BrewGills team is a loose collective of assorted engineers, businessmen, and patriots. Our products
+          <h1 class="w3-xlarge" style="color: #FF4533">About Us</h1>
+          <p class="w3-text-gray">The BrewGills team is a loose collective of assorted engineers, businessmen, and patriots. Our products
             are inspired by nature and predicated on quality. Please drink responsibly.
           </p>
         </div>
@@ -179,8 +181,8 @@
           <img src="img\BGLogoCap2.png" id="spincap">
         </div>
         <div class="w3-third w3-center">
-          <h1 class="w3-xlarge">Contact Info</h1>
-          <p class="w3-text-gray">We're constantly trying to improve our performance, so if you ever have any questions or comments feel free to contact us:</p>
+          <h1 class="w3-xlarge" style="color: #FF4533">Contact Info</h1>
+          <p class="w3-text-gray" style="padding-bottom: 5px">We're constantly trying to improve our performance, so if you ever have any questions or comments feel free to contact us:</p>
           <ul class="w3-text-gray" style="padding-right: 55px" id="contact-info-list">
             <li class="w3-center-align w3-hover-text-blue"><i class="fa fa-phone"></i> 407-572-5874</li>
             <li class="w3-center-align w3-hover-text-blue"><i class="fa fa-envelope"></i> brewgills@gmail.com</li>
@@ -214,25 +216,20 @@ function myFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
-
-//Slideshow 
+//Slideshow
 var myIndex = 0;
 carousel();
-
 function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
+       x[i].style.display = "none";
     }
     myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
     setTimeout(carousel, 4500); // Change image every 4.5 seconds
 }
-
-
-
 </script>
 </body>
 </html>
