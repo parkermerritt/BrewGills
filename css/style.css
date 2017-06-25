@@ -260,6 +260,14 @@ i#yt:hover {color: #ff0000;}
     width:100vw;
   }
 }
+
+@media (max-width: 400px) {
+  .slide-img {
+    margin-top: 5vh;
+    border-style: none;
+    width:100vw;
+  }
+}
 /* End of Slideshow Style */
 
 
