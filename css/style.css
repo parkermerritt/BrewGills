@@ -256,7 +256,14 @@ i#yt:hover {color: #ff0000;}
 
 
 /* Style for Slideshow */
-.mySlides {margin-bottom: 40px;}
+.mySlides {margin-bottom: 40px;
+  width:100%;
+max-width: 700px;
+display: block;
+margin: auto;
+margin-bottom: 15px;
+margin-top: 21px;
+}
 
 .slide-img {max-width: 1024px;}
 
