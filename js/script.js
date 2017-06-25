@@ -11,3 +11,11 @@ $('#spincap').css({ transform: 'rotate(-' + theta + 'rad)' });
 });
 
 
+$(document).ready(function(){
+    $('.img-zoom').hover(function() {
+        $(this).addClass('transition');
+
+    }, function() {
+        $(this).removeClass('transition');
+    });
+  });

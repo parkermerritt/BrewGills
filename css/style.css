@@ -82,6 +82,20 @@ max-width: 300px;
 min-width: 220px;
 }
 
+.img-zoom {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+
+.transition {
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
 
 /* STYLE FOR ID'S */
 #merch-header {margin-top: 0px;}
