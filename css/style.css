@@ -92,9 +92,10 @@ div.transparent-box {
 }
 
 @media only screen and (max-width: 420px) {
-  #trio {width: 90vw}
-  #bp {width: 90vw}
-}
+  #trio {
+    width: 90vw;
+  }
+ 
 
 @media only screen and (min-width: 420px) {
   #header-img {
@@ -255,6 +256,7 @@ i#yt:hover {color: #ff0000;}
   .slide-img {
     margin-top: 0;
     border-style: none;
+    width:100vw;
   }
 }
 /* End of Slideshow Style */
