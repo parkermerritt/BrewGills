@@ -75,6 +75,14 @@ div.transparent-box {
   background-size: cover;
 }
 
+.reel {
+display: block;
+margin: auto;
+width: 30%;
+max-width: 300px;
+min-width: 220px;
+}
+
 
 /* STYLE FOR ID'S */
 #merch-header {margin-top: 0px;}
@@ -89,10 +97,6 @@ div.transparent-box {
   margin-left: 50px;
 }
 
-#reel {
-  margin:auto;
-  text-align: center;
-}
 
 @media only screen and (max-width: 420px) {
   #trio {
