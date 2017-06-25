@@ -95,7 +95,8 @@ div.transparent-box {
   #trio {
     width: 90vw;
   }
- 
+  #bp {width: 90vw}
+}
 
 @media only screen and (min-width: 420px) {
   #header-img {
