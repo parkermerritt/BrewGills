@@ -64,6 +64,7 @@ div.transparent-box {
   padding: 1% 0;
   opacity: 0.7;
   background-color: #ffffff;
+  margin-bottom: 10px;
 }
 
 .parallax {
@@ -74,12 +75,7 @@ div.transparent-box {
   background-size: cover;
 }
 
-.parallax-tshirt {
-  background-image: url("../img/tshirt-parallax.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 
 
 /* STYLE FOR ID'S */
@@ -230,6 +226,8 @@ i#yt:hover {color: #ff0000;}
     width: 95vw;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
