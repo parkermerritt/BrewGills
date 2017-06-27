@@ -132,16 +132,6 @@ min-width: 220px;
   max-height: 200px;
 }
 
-#hawaiiGif {
-  margin-bottom: 40px;
-  width:100%;
-  height:0;
-  padding-bottom:56%;
-  position:relative;
-  padding-top:4%;
-  margin-top:6%
-}
-
 /* Style for Link to Store button */
 .border {
   position: absolute;
@@ -406,3 +396,21 @@ td {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 }
 /* ======= End of Reel-Time Table ======= */
+
+/* Media Page */
+
+#hawaiiGif {
+  margin-bottom: 40px;
+  width:100vw;
+  max-width: 1025px;
+  padding-bottom:10vh;
+  padding-top:5vh;
+}
+
+@media (min-width: 1025px) {
+  #hawaiiGif {
+    display: block;
+    margin: 0 auto;
+
+  }
+}
