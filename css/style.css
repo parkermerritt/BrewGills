@@ -328,6 +328,12 @@ margin-top: 21px;
 /* End of Slideshow Style */
 
 
+
+
+
+/* Media Page */
+
+
 /* ======= Style for Reel-Time Table ======= */
 #table-heading {
   font-size: 30px;
@@ -337,11 +343,13 @@ margin-top: 21px;
   text-align: center;
   margin-bottom: 15px;
   padding-top: 15px;
+  max-width: 1025px;
 }
 
 table {
   width:100%;
   table-layout: fixed;
+
 }
 
 .tbl-header {background-color: rgba(255,255,255,0.3);}
@@ -397,20 +405,25 @@ td {
 }
 /* ======= End of Reel-Time Table ======= */
 
-/* Media Page */
 
 #hawaiiGif {
-  margin-bottom: 40px;
-  width:100vw;
+ 
+  width:80vw;
   max-width: 1025px;
   padding-bottom:10vh;
   padding-top:5vh;
+  display: block;
+  margin: 40px auto;
 }
 
-@media (min-width: 1025px) {
-  #hawaiiGif {
-    display: block;
-    margin: 0 auto;
 
-  }
+#table-color {
+  width:80vw;
+  max-width: 1025px;
+  display: block;
+  margin: 0 auto;
+}
+
+.reel-time-records {
+  background-color: #fffffb;
 }
