@@ -438,11 +438,17 @@ td {
 /* Merch Page */
 
 .merch-shirt {
-  width:30vw;
-  max-width:240px;
+  width:240px;
   height:25vh;
   min-height:265px;
   display: block;
   margin: 0 auto;
 }
 
+
+@media (max-width:414px) {
+  .merch-shirt {
+    margin-bottom: 60px;
+  }
+  
+}
