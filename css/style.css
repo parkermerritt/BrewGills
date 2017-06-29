@@ -7,6 +7,8 @@ header {
   margin-top: 7vh;
 }
 
+footer {background-color: #032B43;}
+
 p {
   font-family: 'Ubuntu', sans-serif;
   max-width: 500px;
