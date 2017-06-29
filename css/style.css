@@ -425,7 +425,7 @@ td {
 
 
 #hawaiiGif {
- 
+
   width:80vw;
   max-width: 1025px;
   padding-bottom:5vh;
@@ -436,19 +436,16 @@ td {
 
 
 /* Merch Page */
-
 .merch-shirt {
-  width:240px;
+  width:275px;
   height:25vh;
   min-height:265px;
   display: block;
   margin: 0 auto;
 }
 
-
 @media (max-width:414px) {
   .merch-shirt {
     margin-bottom: 60px;
   }
-  
 }
