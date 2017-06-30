@@ -54,7 +54,12 @@ header h1 {margin-bottom: 15px;}
   max-height: 150px;
 }
 
-.infographic {
+.infographic-left {
+  height: 20vh;
+  min-height: 200px;
+}
+
+.infographic-right {
   height: 20vh;
   min-height: 200px;
 }
@@ -123,8 +128,8 @@ min-width: 220px;
   #bp {width: 90vw}
 
   .homeMerch{
-    margin-bottom: 5px;
-    margin-top:5px;
+    margin-bottom: 8px;
+    margin-top:8px;
   }
 }
 
@@ -224,7 +229,13 @@ i#yt:hover {color: #ff0000;}
       min-height: 250px;
     }
 
-    .infographic {
+    .infographic-left {
+      height: 20vh;
+      min-height: 140px;
+    }
+
+
+    .infographic-right {
       height: 20vh;
       min-height: 140px;
     }
@@ -306,12 +317,24 @@ margin-top: 21px;
     width:100vw;
   }
 
-   .infographic {
-      width: 75vw;
+   .infographic-left {
+     margin-bottom:-53px;
+     margin-left:8px;
+     float:left;
+      width: 53vw;
       height: auto;
-      min-height: 140px;
+      min-height: 90px;
     }
 
+    .infographic-right {
+       margin-bottom:-53px;
+       margin-right: 8px;
+      float:right;
+       width: 53vw;
+       height: auto;
+       min-height: 90px;
+
+     }
 
 }
 
