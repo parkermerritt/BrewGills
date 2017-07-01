@@ -109,6 +109,9 @@ min-width: 220px;
     transform: scale(1.1);
 }
 
+.paypal-info {
+  margin-bottom: 50px;
+}
 
 /* STYLE FOR ID'S */
 #merch-header {margin-top: 0px;}
@@ -459,7 +462,6 @@ td {
 
 
 #hawaiiGif {
-
   width:80vw;
   max-width: 1025px;
   padding-bottom:5vh;
@@ -471,15 +473,25 @@ td {
 
 /* Merch Page */
 .merch-shirt {
-  width:275px;
-  height:25vh;
-  min-height:265px;
+  width:40vh;
+  min-width:150px;
+  height: 30vh;
   display: block;
   margin: 0 auto;
 }
 
+
 @media (max-width:414px) {
   .merch-shirt {
-    margin-bottom: 60px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 415px) {
+  @media (max-width: 1024px) {
+    .merch-shirt{
+      width: 30vw;
+      height: 20vh;
+    }
   }
 }
