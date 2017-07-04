@@ -64,11 +64,35 @@ header h1 {margin-bottom: 15px;}
   min-height: 200px;
 }
 
-.homeMerch {height: 50vh;
-  max-height: 300px;
-margin-top: 30px;
-margin-bottom:20px;
+.homeMerch {
+  height: 50vh;
+  max-height: 200px;
+  margin-top: 30px;
+  margin-bottom:20px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
  }
+
+ @media (min-width: 769px) {
+    @media (max-width:1025px) {
+      .homeMerch {
+        max-height: 250px;
+      }
+ }
+ }
+@media (min-width: 1026px) {
+   .homeMerch {
+        max-height: 300px;
+      }
+}
+
+@media (max-width:420px) {
+   .homeMerch {
+        max-height: 225px;
+      }
+}
+
 
 div.transparent-box {
   max-width: 500px;
