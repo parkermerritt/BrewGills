@@ -72,25 +72,20 @@ header h1 {margin-bottom: 15px;}
   display: block;
   margin-right: auto;
   margin-left: auto;
- }
+}
 
- @media (min-width: 769px) {
-    @media (max-width:1025px) {
-      .homeMerch {
-        max-height: 250px;
-      }
- }
- }
+@media (min-width: 769px) {
+  @media (max-width:1025px) {
+    .homeMerch {max-height: 250px;}
+  }
+}
+
 @media (min-width: 1026px) {
-   .homeMerch {
-        max-height: 300px;
-      }
+  .homeMerch {max-height: 300px;}
 }
 
 @media (max-width:420px) {
-   .homeMerch {
-        max-height: 225px;
-      }
+  .homeMerch {max-height: 225px;}
 }
 
 
@@ -112,30 +107,29 @@ div.transparent-box {
 }
 
 .reel {
-display: block;
-margin: auto;
-width: 30%;
-max-width: 300px;
-min-width: 220px;
+  display: block;
+  margin: auto;
+  width: 30%;
+  max-width: 300px;
+  min-width: 220px;
 }
 
 .img-zoom {
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    -ms-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
 }
 
 .transition {
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-.paypal-info {
-  margin-bottom: 50px;
-}
+.paypal-info {margin-bottom: 50px;}
+
 
 /* STYLE FOR ID'S */
 #merch-header {margin-top: 0px;}
@@ -245,7 +239,7 @@ i#yt:hover {color: #ff0000;}
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
-    .modal-content {width: 100%;}
+  .modal-content {width: 100%;}
 }
 
 /* Styling for Ipad */
@@ -297,24 +291,21 @@ i#yt:hover {color: #ff0000;}
     margin-right: auto;
     margin-left: auto;
   }
-
 }
 
 @media only screen and (min-width: 420px) {
-  #side-blueprint {
-    display: none;
-  }
+  #side-blueprint {display: none;}
 }
 
 
 /* Style for Slideshow */
 .mySlides {margin-bottom: 40px;
-  width:100%;
-max-width: 700px;
-display: block;
-margin: auto;
-margin-bottom: 15px;
-margin-top: 21px;
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top: 21px;
 }
 
 .slide-img {max-width: 1024px;}
@@ -331,7 +322,7 @@ margin-top: 21px;
   .slide-img {
     margin-top: 0;
     border-style: none;
-    width:100vw;
+    width: 100vw;
   }
 }
 
@@ -341,28 +332,27 @@ margin-top: 21px;
   .slide-img {
     margin-top: 4.15vh;
     border-style: none;
-    width:100vw;
+    width: 100vw;
   }
 
-   .infographic-left {
-     margin-bottom:-53px;
-     margin-left:8px;
-     float:left;
-      width: 53vw;
-      height: auto;
-      min-height: 90px;
-    }
+  .infographic-left {
+    margin-bottom: -53px;
+    margin-left: 8px;
+    float: left;
+    width: 53vw;
+    height: auto;
+    min-height: 90px;
+  }
 
-    .infographic-right {
-       margin-bottom:-53px;
-       margin-right: 8px;
-      float:right;
-       width: 53vw;
-       height: auto;
-       min-height: 90px;
+  .infographic-right {
+    margin-bottom: -53px;
+    margin-right: 8px;
+    float: right;
+    width: 53vw;
+    height: auto;
+    min-height: 90px;
 
-     }
-
+  }
 }
 
 /* Nexus 5s */
@@ -371,7 +361,7 @@ margin-top: 21px;
   .slide-img {
     margin-top: 5.4vh;
     border-style: none;
-    width:100vw;
+    width: 100vw;
   }
 }
 
@@ -381,13 +371,10 @@ margin-top: 21px;
   .slide-img {
     margin-top: 5vh;
     border-style: none;
-    width:100vw;
+    width: 100vw;
   }
 }
-
-
 /* End of Slideshow Style */
-
 
 
 
@@ -396,9 +383,8 @@ margin-top: 21px;
 
 
 /* ======= Style for Reel-Time Table ======= */
-
 #table-color {
-  width:80vw;
+  width: 55vw;
   max-width: 1025px;
   display: block;
   margin: 0 auto;
@@ -407,13 +393,11 @@ margin-top: 21px;
 
 @media (max-width: 420px) {
   #table-color {
-    width:90vw;
+    width: 85vw;
   }
 }
 
-.reel-time-records {
-  background-color: #fffffb;
-}
+.reel-time-records {background-color: #fffffb;}
 
 #table-heading {
   font-size: 30px;
@@ -427,34 +411,32 @@ margin-top: 21px;
 }
 
 table {
-  width:100%;
+  width: 100%;
   table-layout: fixed;
-
 }
 
 .tbl-header {background-color: rgba(255,255,255,0.3);}
 
 .tbl-content {
-  height:300px;
-  overflow-x:auto;
+  height: 300px;
+  overflow-x: auto;
   margin-top: 0px;
   border: 1px solid rgba(255,255,255,0.3);
 }
 
 th {
-  padding: 20px 15px;
+  padding: 20px 10px;
   text-align: left;
   font-weight: 500;
   font-size: 12px;
   color: #fff;
   text-transform: uppercase;
-
 }
 
 td {
   padding: 15px;
   text-align: left;
-  vertical-align:middle;
+  vertical-align: middle;
   font-weight: 300;
   font-size: 12px;
   color: #fff;
@@ -462,8 +444,7 @@ td {
 }
 
 
-/* demo styles */
-
+  /* demo styles */
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
 #table-color {
   background: -webkit-linear-gradient(left, #25c481, #25b7c4);
@@ -472,53 +453,55 @@ td {
 }
 
 
-/* for custom scrollbar for webkit browser*/
-
+  /* for custom scrollbar for webkit browser*/
 ::-webkit-scrollbar {
-    width: 6px;
+  width: 8px;
 }
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 }
 ::-webkit-scrollbar-thumb {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 }
 /* ======= End of Reel-Time Table ======= */
 
 
 #hawaiiGif {
-  width:80vw;
+  width: 80vw;
   max-width: 1025px;
-  padding-bottom:5vh;
-  padding-top:5vh;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
   display: block;
   margin: 40px auto;
 }
 
 
 /* Merch Page */
-.merch-shirt {
-  width:40vh;
-  min-width:150px;
-  max-width: 280px;
-  height:30vh;
-  max-height:220px;
-  display: block;
-  margin: 0 auto;
-}
-
-
-@media (max-width:414px) {
   .merch-shirt {
-    margin-bottom: 15px;
+    width: 40vh;
+    min-width: 150px;
+    max-width: 280px;
+    height: 30vh;
+    max-height: 220px;
+    display: block;
+    margin: 0 auto;
   }
-}
 
-@media (min-width: 415px) {
-  @media (max-width: 1024px) {
-    .merch-shirt{
-      width: 30vw;
-      height: 20vh;
+
+  /* iPhones */
+  @media (max-width:414px) {
+    .merch-shirt {
+      margin-bottom: 15px;
     }
   }
-}
+
+  /* iPad & iPad Pro */
+  @media (min-width: 415px) {
+    @media (max-width: 1024px) {
+      .merch-shirt{
+        width: 30vw;
+        height: 20vh;
+      }
+    }
+  }
+/* end of Merch Page */
