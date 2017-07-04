@@ -22,197 +22,195 @@
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-100787675-1', 'auto');
   ga('send', 'pageview');
+
+
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+      } else {
+          x.className = x.className.replace(" w3-show", "");
+      }
+  }
+  //Slideshow
+  var myIndex = 0;
+  carousel();
+  function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 4500); // Change image every 4.5 seconds
+  }
 </script>
 
 <!-- Favicon -->
 <link rel="icon" type="image/png" href="img/BlueBGFavicon.png">
 
 <body>
-
   <!-- Nav Bar -->
-<div class="w3-top">
-  <div class="w3-bar w3-card-2 w3-center-align w3-large" style="background-color: #333333">
-   <ul class="w3-center-align">
-     <li class="w3-right-align"><a href="media.html"><img src="img\MenuCapV2.png" alt="link to media page" class="nav-img"></a></li>
-     <li><a href="index.html"><img src="img\BGbonesLogoTrans.png" alt="link to home page" class="nav-img"></a></li>
-     <li class="w3-left-align"><a href="merch.html"><img src="img\MenuCap4.png" alt="link to merchandise page" class="nav-img"></a></li>
-   </ul>
-  </div>
-</div>
-
-  <!-- Header -->
-<header class="w3-container w3-center parallax"ß>
-  <!-- Slideshow -->
-  <div class="mySlides w3-display-container w3-center">
-    <img src="img/BrewGill9.jpeg" style="width:100%" class="slide-img">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <p><b></b></p>
+  <div class="w3-top">
+    <div class="w3-bar w3-card-2 w3-center-align w3-large" style="background-color: #333333">
+     <ul class="w3-center-align">
+       <li class="w3-right-align"><a href="media.html"><img src="img\MenuCapV2.png" alt="link to media page" class="nav-img"></a></li>
+       <li><a href="index.html"><img src="img\BGbonesLogoTrans.png" alt="link to home page" class="nav-img"></a></li>
+       <li class="w3-left-align"><a href="merch.html"><img src="img\MenuCap4.png" alt="link to merchandise page" class="nav-img"></a></li>
+     </ul>
     </div>
   </div>
 
-  <div class="mySlides w3-display-container w3-center">
-    <img src="img/6PackBG.JPG" style="width:100%"  class="slide-img">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <p><b></b></p>
+    <!-- Header -->
+  <header class="w3-container w3-center parallax"ß>
+    <!-- Slideshow -->
+    <div class="mySlides w3-display-container w3-center">
+      <img src="img/BrewGill9.jpeg" style="width:100%" class="slide-img">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <p><b></b></p>
+      </div>
+    </div>
+
+    <div class="mySlides w3-display-container w3-center">
+      <img src="img/6PackBG.JPG" style="width:100%"  class="slide-img">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <p><b></b></p>
+      </div>
+    </div>
+
+    <div class="mySlides w3-display-container w3-center">
+      <img src="img/WaubergBG.jpg" style="width:100%"  class="slide-img">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <p><b></b></p>
+      </div>
+    </div>
+
+    <div class="transparent-box">
+      <h1>The New Era of Shotgunning</h1>
+      <p class="w3-padding-small">We’ve engineered a better
+         shotgunning experience from the glass up, providing drinkers with a tool with the capability to unseal, enhance, and even
+         customize the standard bottle of beer. With more “Bingineering” innovations coming down our pipeline, our team encourages
+         you to dive in, go with the flow, and learn to “Drink Like a Fish.”
+      </p>
+    </div>
+  </header>
+
+  <!-- First Grid (Infographics & Blueprint) -->
+  <section>
+    <div class="w3-row-padding w3-padding-small w3-container">
+      <div class="w3-content">
+        <div class="w3-third w3-center">
+          <img class="infographic-right img-zoom" src="img\HookInfographicP1V2.png" id="How-to-use" alt="Step 1: Hook">
+        </div>
+        <div class="w3-third w3-center">
+          <img class="infographic-left img-zoom" src="img\HookInfographicP2V2.png" alt="Step 2: Line">
+        </div>
+        <div class="w3-third w3-center">
+          <img class="infographic-right img-zoom" src="img\HookInfographicP3V3.png" id="How-to-use" alt="Step 3: Sinker">
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-row-padding w3-padding-small w3-container">
+      <div class="w3-content">
+          <div class="w3-third w3-center" style="padding-top: 80px">
+           <p style="color: #333333">The BrewGill, our company’s namesake and patent-pending innovation, is a handy tool for quickly
+              transporting beer from bottle to human. Open, shotgun, and identify your bottle of beer, all with a single device. Examine
+              for yourself the next leap forward in the tailgater evolution-- coming soon to a brew near you.
+           </p>
+          </div>
+          <div class="w3-twothird w3-center w3-padding-24">
+            <img class="img-zoom" src="img\HookBlueprint8.png" id="bp">
+            <img class="img-zoom" src="img\HookBlueprintSide1.png" id="side-blueprint">
+          </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Second Grid (T-Shirts & BuzzCatcher) -->
+  <div class="w3-light-grey w3-container w3-center">
+    <div class=" w3-container">
+      <div class="w3-third w3-center">
+        <img class="homeMerch img-zoom" src="img\BuzzedBluePromo.png">
+      </div>
+      <div class="w3-center w3-third">
+        <a target="_blank"><img class="homeMerch img-zoom" src="img\OrangePurplePromo3.png" alt="T-shirt pre-order form"></a>
+      </div>
+      <div class="w3-third w3-center">
+        <img class="homeMerch img-zoom" src="img\BuzzcatcherPromo.png">
+      </div>
+    </div>
+    <div class="w3-container" style="padding-bottom: 28px; padding-top: 2px;">
+      <div class="w3-center">
+        <div id="link-to-store" class="buttonBox">
+          <a href="merch.html"><button class="w3-padding-large w3-large">Link to Store</button></a>
+            <div class="border"></div>
+            <div class="border"></div>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="mySlides w3-display-container w3-center">
-    <img src="img/WaubergBG.jpg" style="width:100%"  class="slide-img">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <p><b></b></p>
-    </div>
-  </div>
 
-  <div class="transparent-box">
-    <h1>The New Era of Shotgunning</h1>
-    <p class="w3-padding-small">We’ve engineered a better
-       shotgunning experience from the glass up, providing drinkers with a tool with the capability to unseal, enhance, and even
-       customize the standard bottle of beer. With more “Bingineering” innovations coming down our pipeline, our team encourages
-       you to dive in, go with the flow, and learn to “Drink Like a Fish.”
-    </p>
-  </div>
-</header>
 
-   <!-- First Grid (Infographics & Blueprint) -->
-<section>
-  <div class="w3-row-padding w3-padding-small w3-container">
+  <!-- these events will remain commented out (temporarily) until we start planning more
+  <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
     <div class="w3-content">
       <div class="w3-third w3-center">
-        <img class="infographic-right img-zoom" src="img\HookInfographicP1V2.png" id="How-to-use" alt="Step 1: Hook">
+        <img src="#" id="Event">
       </div>
       <div class="w3-third w3-center">
-        <img class="infographic-left img-zoom" src="img\HookInfographicP2V2.png" alt="Step 2: Line">
+        <img src="#" id="Event">
       </div>
       <div class="w3-third w3-center">
-        <img class="infographic-right img-zoom" src="img\HookInfographicP3V3.png" id="How-to-use" alt="Step 3: Sinker">
+        <img src="#" id="Event">
       </div>
-    </div>
+     </div>
   </div>
-
-
-<div class="w3-row-padding w3-padding-small w3-container">
-  <div class="w3-content">
-      <div class="w3-third w3-center" style="padding-top: 80px">
-       <p style="color: #333333">The BrewGill, our company’s namesake and patent-pending innovation, is a handy tool for quickly
-          transporting beer from bottle to human. Open, shotgun, and identify your bottle of beer, all with a single device. Examine
-          for yourself the next leap forward in the tailgater evolution-- coming soon to a brew near you.
-       </p>
-      </div>
-      <div class="w3-twothird w3-center w3-padding-24">
-        <img class="img-zoom" src="img\HookBlueprint8.png" id="bp">
-        <img class="img-zoom" src="img\HookBlueprintSide1.png" id="side-blueprint">
-      </div>
-  </div>
-</div>
-</section>
-
-
-<!-- Second Grid (T-Shirts & BuzzCatcher) -->
-<div class="w3-light-grey w3-container w3-center">
-  <div class=" w3-container">
-    <div class="w3-third w3-center">
-      <img class="homeMerch img-zoom" src="img\BuzzedBluePromo.png">
-    </div>
-    <div class="w3-center w3-third">
-      <a target="_blank"><img class="homeMerch img-zoom" src="img\OrangePurplePromo3.png" alt="T-shirt pre-order form"></a>
-    </div>
-    <div class="w3-third w3-center">
-      <img class="homeMerch img-zoom" src="img\BuzzcatcherPromo.png">
-    </div>
-  </div>
-  <div class="w3-container" style="padding-bottom: 28px; padding-top: 2px;">
-    <div class="w3-center">
-      <div id="link-to-store" class="buttonBox">
-        <a href="merch.html"><button class="w3-padding-large w3-large">Link to Store</button></a>
-          <div class="border"></div>
-          <div class="border"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<!-- these events will remain commented out (temporarily) until we start planning more
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-third w3-center">
-      <img src="#" id="Event">
-    </div>
-    <div class="w3-third w3-center">
-      <img src="#" id="Event">
-    </div>
-    <div class="w3-third w3-center">
-      <img src="#" id="Event">
-    </div>
-   </div>
-</div>
-    -->
+  -->
 
 
   <!-- Third Grid (About Us & Contact) -->
-<div class="w3-container w3-center" style="background-color: #333333">
-    <div class="w3-row-padding w3-container w3-padding-32">
-        <div class="w3-third w3-center">
-          <h1 class="w3-xlarge" style="color: #FF4533">About Us</h1>
-          <p style="color:#ffffff">The BrewGills team is a loose collective of assorted engineers, businessmen, and patriots. Our products
-            are inspired by nature and predicated on quality. Please drink responsibly.
-          </p>
-        </div>
-        <div class="w3-third w3-center w3-padding-32">
-          <img src="img\BGLogoCap2.png" id="spincap">
-        </div>
-        <div class="w3-third w3-center">
-          <h1 class="w3-xlarge" style="color: #FF4533">Contact Info</h1>
-          <p class="w3-text-white" style="padding-bottom: 5px"> We're constantly trying to improve our performance, so if you ever have any questions or comments feel free to contact us:</p>
-          <ul class="w3-text-white" style="padding-right: 55px" id="contact-info-list">
-            <li class="w3-center-align w3-hover-text-blue"><i class="fa fa-phone"></i> 407-572-5874</li>
-            <li class="w3-center-align w3-hover-text-blue"><i class="fa fa-envelope"></i> brewgills@gmail.com</li>
-            <li class="w3-center-align w3-hover-text-blue"><i class="fa fa-map-marker"></i> Gainesville, FL</li>
-          </ul>
-        </div>
-    </div>
-</div>
+  <div class="w3-container w3-center" style="background-color: #333333">
+      <div class="w3-row-padding w3-container w3-padding-32">
+          <div class="w3-third w3-center">
+            <h1 class="w3-xlarge" style="color: #FF4533">About Us</h1>
+            <p style="color:#ffffff">The BrewGills team is a loose collective of assorted engineers, businessmen, and patriots. Our products
+              are inspired by nature and predicated on quality. Please drink responsibly.
+            </p>
+          </div>
+          <div class="w3-third w3-center w3-padding-32">
+            <img src="img\BGLogoCap2.png" id="spincap">
+          </div>
+          <div class="w3-third w3-center">
+            <h1 class="w3-xlarge" style="color: #FF4533">Contact Info</h1>
+            <p class="w3-text-white" style="padding-bottom: 5px"> We're constantly trying to improve our performance, so if you ever have any questions or comments feel free to contact us:</p>
+            <ul class="w3-text-white" style="padding-right: 55px" id="contact-info-list">
+              <li class="w3-center-align w3-hover-text-blue"><i class="fa fa-phone"></i> 407-572-5874</li>
+              <li class="w3-center-align w3-hover-text-blue"><i class="fa fa-envelope"></i> brewgills@gmail.com</li>
+              <li class="w3-center-align w3-hover-text-blue"><i class="fa fa-map-marker"></i> Gainesville, FL</li>
+            </ul>
+          </div>
+      </div>
+  </div>
 
   <!-- Footer -->
-<footer class="w3-container w3-padding-32 w3-center" style="background-color: #032B43">
-  <div class="w3-xlarge w3-padding-24">
-    <a href="https://www.facebook.com/BrewGills/" target="_blank"><i id="fb" class="fa fa-facebook-official"></i></a>
-    <a href="https://www.instagram.com/brewgills/" target="_blank"><i id="ig" class="fa fa-instagram"></i></a>
-    <i onclick="document.getElementById('modal01').style.display='block'" id="sc" class="fa fa-snapchat"></i>
-      <div id="modal01" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
-        <img class="w3-modal-content" id="snapcode" src="img\BrewGills_Snapcode.png">
-      </div>
-    <a href="https://twitter.com/BrewGills" target="_blank"><i id="twit" class="fa fa-twitter"></i></a>
-    <a href="https://www.youtube.com/channel/UCUhG06MAbRaB-Crjb1uypcg" target="_blank"><i id="yt" class="fa fa-youtube-play"></i></a>
- </div>
+  <footer class="w3-container w3-padding-32 w3-center" style="background-color: #032B43">
+    <div class="w3-xlarge w3-padding-24">
+      <a href="https://www.facebook.com/BrewGills/" target="_blank"><i id="fb" class="fa fa-facebook-official"></i></a>
+      <a href="https://www.instagram.com/brewgills/" target="_blank"><i id="ig" class="fa fa-instagram"></i></a>
+      <i onclick="document.getElementById('modal01').style.display='block'" id="sc" class="fa fa-snapchat"></i>
+        <div id="modal01" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+          <img class="w3-modal-content" id="snapcode" src="img\BrewGills_Snapcode.png">
+        </div>
+      <a href="https://twitter.com/BrewGills" target="_blank"><i id="twit" class="fa fa-twitter"></i></a>
+      <a href="https://www.youtube.com/channel/UCUhG06MAbRaB-Crjb1uypcg" target="_blank"><i id="yt" class="fa fa-youtube-play"></i></a>
+   </div>
+  </footer>
 
-</footer>
-<script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-//Slideshow
-var myIndex = 0;
-carousel();
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}
-    x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 4500); // Change image every 4.5 seconds
-}
-</script>
 </body>
 </html>
