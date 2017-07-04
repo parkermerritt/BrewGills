@@ -22,37 +22,13 @@
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-100787675-1', 'auto');
   ga('send', 'pageview');
-
-
-  // Used to toggle the menu on small screens when clicking on the menu button
-  function myFunction() {
-      var x = document.getElementById("navDemo");
-      if (x.className.indexOf("w3-show") == -1) {
-          x.className += " w3-show";
-      } else {
-          x.className = x.className.replace(" w3-show", "");
-      }
-  }
-  //Slideshow
-  var myIndex = 0;
-  carousel();
-  function carousel() {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      for (i = 0; i < x.length; i++) {
-         x[i].style.display = "none";
-      }
-      myIndex++;
-      if (myIndex > x.length) {myIndex = 1}
-      x[myIndex-1].style.display = "block";
-      setTimeout(carousel, 4500); // Change image every 4.5 seconds
-  }
 </script>
 
 <!-- Favicon -->
 <link rel="icon" type="image/png" href="img/BlueBGFavicon.png">
 
 <body>
+
   <!-- Nav Bar -->
   <div class="w3-top">
     <div class="w3-bar w3-card-2 w3-center-align w3-large" style="background-color: #333333">
@@ -64,7 +40,7 @@
     </div>
   </div>
 
-    <!-- Header -->
+  <!-- Header -->
   <header class="w3-container w3-center parallax"ß>
     <!-- Slideshow -->
     <div class="mySlides w3-display-container w3-center">
@@ -113,6 +89,7 @@
         </div>
       </div>
     </div>
+
 
     <div class="w3-row-padding w3-padding-small w3-container">
       <div class="w3-content">
@@ -212,5 +189,30 @@
    </div>
   </footer>
 
+  <script>
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+      } else {
+          x.className = x.className.replace(" w3-show", "");
+      }
+  }
+  //Slideshow
+  var myIndex = 0;
+  carousel();
+  function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 4500); // Change image every 4.5 seconds
+  }
+  </script>
 </body>
 </html>
