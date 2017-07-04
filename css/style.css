@@ -475,7 +475,9 @@ td {
 .merch-shirt {
   width:40vh;
   min-width:150px;
-  height: 30vh;
+  max-width: 280px;
+  height:30vh;
+  max-height:220px;
   display: block;
   margin: 0 auto;
 }
