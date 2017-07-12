@@ -5,6 +5,7 @@ h1 {line-height: .9}
 header {
   background-color: #72A3CB;
   margin-top: 7vh;
+  
 }
 
 footer {background-color: #032B43;}
@@ -424,11 +425,11 @@ i#yt:hover {color: #ff0000;}
 
 /* ======= Style for Reel-Time Table ======= */
 #table-color {
-  width: 55vw;
+  width: 83vw;
   max-width: 1025px;
   display: block;
   margin: 0 auto;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 
 }
 
@@ -448,7 +449,7 @@ i#yt:hover {color: #ff0000;}
   text-align: center;
   margin-bottom: 15px;
   padding-top: 15px;
-  max-width: 1025px;
+  max-width: 1500px;
 }
 
 table {
@@ -510,10 +511,11 @@ td {
 #hawaiiGif {
   width: 85vw;
   max-width: 1025px;
-  padding-bottom: 5vh;
+  min-width: 400px;
+  padding-bottom: 1vh;
   padding-top: 5vh;
   display: block;
-  margin: 40px auto;
+  margin: 35px auto;
 }
 
 
