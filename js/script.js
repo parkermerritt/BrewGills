@@ -1,3 +1,5 @@
+<audio id="audio" src="http://freesound.org/data/previews/119/119900_1990698-lq.mp3" autostart="false"></audio>
+
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == modal) {
@@ -19,3 +21,8 @@ $(document).ready(function(){
         $(this).removeClass('transition');
     });
   });
+
+$(document).ready(function playSound() {
+  var sound = document.getElementById("audio");
+  sound.play();
+}

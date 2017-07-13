@@ -17,16 +17,25 @@
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-100787675-1', 'auto');
   ga('send', 'pageview');
+
+
+    function playSound() {
+      var audio = new audio();
+      audio.src = "http://freesound.org/data/previews/119/119900_1990698-lq.mp3";
+    document.getElementById("audio").play();
+
+    }
 </script>
+<audio id="audio" preload="auto"></audio>
 
 <body style="background-color: #BAE5DA">
   <!-- Nav Bar -->
   <div class="w3-top">
     <div class="w3-bar w3-card-2 w3-center-align w3-large" style="background-color: #333333">
         <ul class="w3-center-align">
-       <li class="w3-right-align"><a href="media.html"><img src="img\MenuCapV2.png" class="nav-img"></a></li>
+       <li class="w3-right-align"><a onclick="playSound();" href="media.html"><img src="img\MenuCapV2.png" class="nav-img"></a></li>
        <li><a href="index.html"><img src="img\BGbonesLogoTrans.png" class="nav-img"></a></li>
-       <li class="w3-left-align"><a href="merch.html"><img src="img\MenuCap4.png" class="nav-img"></a></li>
+       <li class="w3-left-align"><a onclick="playSound();" href="merch.html"><img src="img\MenuCap4.png" class="nav-img"></a></li>
      </ul>
     </div>
   </div>
