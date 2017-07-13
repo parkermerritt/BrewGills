@@ -5,7 +5,7 @@ h1 {line-height: .9}
 header {
   background-color: #72A3CB;
   margin-top: 7vh;
-  
+
 }
 
 footer {background-color: #032B43;}
@@ -110,8 +110,8 @@ width: 150%;
   z-index:1;
   margin-top: -520px;
   margin-bottom: -1%;
-
 }
+
 
 @media (min-width: 769px) {
   @media (max-width:1025px) {
@@ -521,20 +521,30 @@ td {
 
 /* Merch Page */
   .merch-shirt {
-    width: 40vh;
-    min-width: 150px;
-    max-width: 280px;
-    height: 30vh;
-    max-height: 220px;
+    width: 25vw;
+    min-width: 200px;
     display: block;
     margin: 0 auto;
+  }
+
+  .store-icon {
+  width:99%;
+  min-width: 380px;
+  margin-top: -15%;
+  padding: -50px;
+  margin-bottom: 5px;
+  margin-left: -20%;
+  margin-right: -20%;
   }
 
 
   /* iPhones */
   @media (max-width:414px) {
     .merch-shirt {
-      margin-bottom: 15px;
+      margin-bottom: 10px;
+      width:100%;
+
+
     }
   }
 
@@ -542,8 +552,7 @@ td {
   @media (min-width: 415px) {
     @media (max-width: 1024px) {
       .merch-shirt{
-        width: 30vw;
-        height: 20vh;
+        width: 25vw;
       }
     }
   }
