@@ -5,6 +5,8 @@ h1 {line-height: .9}
 header {
   background-color: #72A3CB;
   margin-top: 7vh;
+  z-index: 10;
+  position: static;
 
 }
 
@@ -145,6 +147,8 @@ div.transparent-box {
   background-size: cover;
 }
 
+
+
 .reel {
   display: block;
   margin: auto;
@@ -194,8 +198,8 @@ div.transparent-box {
   }
 
   .homeMerch{
-    margin-bottom: 8px;
-    margin-top:8px;
+    margin-bottom: 4px;
+    margin-top:4px;
   }
 
 
@@ -225,7 +229,7 @@ button {
   width: 200px;
   height: 80px;
   position: relative;
-  background: rgba(173, 173, 173, 0.35);
+  background: rgba(173, 173, 173, 0.9);
   text-transform: uppercase;
   color: #FF4533;
   font-weight: 700;
@@ -236,7 +240,10 @@ button {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.buttonBox{position: relative;}
+.buttonBox{
+  position: relative;
+
+}
 
 
 #link-to-store>.border:nth-of-type(1) {
@@ -302,11 +309,12 @@ i#yt:hover {color: #ff0000;}
       min-height: 200px;
     }
 
-
     .infographic-right {
       height: 25vh;
       min-height: 200px;
     }
+
+
   }
 }
 
@@ -331,6 +339,8 @@ i#yt:hover {color: #ff0000;}
     display: none;
   }
 
+
+
   #side-blueprint {
     width: 93vw;
     padding-top: 5px;
@@ -341,7 +351,15 @@ i#yt:hover {color: #ff0000;}
 }
 
 @media only screen and (min-width: 420px) {
-  #side-blueprint {display: none;}
+  #side-blueprint {
+    display: none;
+  }
+
+  .slide-img-ad {
+    display: none;
+
+  }
+
 }
 
 
@@ -373,6 +391,29 @@ i#yt:hover {color: #ff0000;}
   }
 }
 
+  .ad-slides {
+    width:109%;
+    justify-content: space-around;
+    margin-left: -16px;
+    margin-right: -15px;
+    margin-top: 0px;
+    margin-bottom: -120px;
+    z-index:0;
+    padding:0;
+  }
+
+@media (max-width: 420px) {
+  .ad-slides {
+    display: none;
+  }
+
+  .merch-shirt {
+    width: 90%;
+  }
+}
+
+
+
 /* Iphone 6 plus */
 
 @media (max-width: 414px) {
@@ -400,6 +441,12 @@ i#yt:hover {color: #ff0000;}
     min-height: 90px;
 
   }
+
+  .homeMerch {
+    display: none;
+
+  }
+
 }
 
 /* Nexus 5s */
@@ -409,6 +456,7 @@ i#yt:hover {color: #ff0000;}
     margin-top: 5.4vh;
     border-style: none;
     width: 100vw;
+
   }
 }
 
