@@ -541,27 +541,11 @@ td {
     position: relative;
     margin-right:5px;
     width:35%;
-
-
   }
 
+  .add-cart {
+    width: 45%;
+    margin:-5px;
 
-  /* iPhones */
-  @media (max-width:414px) {
-    .merch-shirt {
-      margin-bottom: 10px;
-      width:100%;
-
-
-    }
-  }
-
-  /* iPad & iPad Pro */
-  @media (min-width: 415px) {
-    @media (max-width: 1024px) {
-      .merch-shirt{
-        width: 25vw;
-      }
-    }
   }
 /* end of Merch Page */
