@@ -537,6 +537,14 @@ td {
   margin-right: -20%;
   }
 
+  .cart-cap {
+    position: relative;
+    margin-right:5px;
+    width:35%;
+
+
+  }
+
 
   /* iPhones */
   @media (max-width:414px) {
