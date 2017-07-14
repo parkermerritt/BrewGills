@@ -530,6 +530,7 @@ th {
 }
 
 td {
+  width: 25%;
   padding: 15px;
   text-align: left;
   vertical-align: middle;
