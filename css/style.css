@@ -578,6 +578,7 @@ td {
   .merch-shirt {
     width: 25vw;
     min-width: 200px;
+    max-width: 300px;
     display: block;
     margin: 0 auto;
   }
