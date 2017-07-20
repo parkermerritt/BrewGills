@@ -410,6 +410,8 @@ i#yt:hover {color: #ff0000;}
   .merch-shirt {
     width: 90%;
   }
+
+
 }
 
 
@@ -591,12 +593,15 @@ td {
   margin-right: -20%;
   }
 
-  .cart-cap {
-    position: relative;
-    margin-right:5px;
-    width:35%;
-  }
+.cart-cap {
+  position: fixed;
+bottom: 0;
+right: 0;
+margin-left: 15%;
+text-align: right;
+max-width: 800px;
 
+}
   .add-cart {
     width: 45%;
     margin:-5px;
