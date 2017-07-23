@@ -571,6 +571,7 @@ td {
   min-width: 400px;
   padding-bottom: 1vh;
   padding-top: 5vh;
+  padding-top: 45px;
   display: block;
   margin: 35px auto;
 }
