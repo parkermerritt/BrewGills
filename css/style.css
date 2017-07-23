@@ -566,8 +566,8 @@ td {
 
 
 #ReelGif {
-  width: 100vw;
-  max-width: 800px;
+  width: 85vw;
+  max-width: 1025px;
   min-width: 400px;
   padding-bottom: 1vh;
   padding-top: 5vh;
