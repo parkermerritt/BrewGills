@@ -579,13 +579,14 @@ td {
   }
 
   .store-icon {
-    width:99%;
-    min-width: 300px;
-    margin-top: -15%;
+    width:100%;
+    min-width: 430px;
+    max-width: 750px;
+    margin-top: -139px;
     padding: -50px;
-    margin-bottom: 5px;
-    margin-left: -20%;
-    margin-right: -20%;
+    margin-bottom: -80px;
+    margin-left: -30%;
+    margin-right: -30%;
   }
 
   .cart-cap {
