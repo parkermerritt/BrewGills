@@ -350,7 +350,8 @@ i#yt:hover {color: #ff0000;}
 
 
 /*--- Style for Top Slideshow ---*/
-.mySlides {margin-bottom: 40px;
+.mySlides {
+  margin-bottom: 40px;
   width: 100%;
   max-width: 700px;
   display: block;
@@ -379,6 +380,7 @@ i#yt:hover {color: #ff0000;}
   }
 }
 
+/* Ad-Slides */
   .ad-slides {
     width:109%;
     justify-content: space-around;
@@ -388,6 +390,17 @@ i#yt:hover {color: #ff0000;}
     margin-bottom: -120px;
     z-index:0;
     padding:0;
+  }
+
+  .mySlides {
+    animation-name: fade-out;
+    animation-delay: 3.5s;
+    animation-duration: 1s;
+  }
+
+  @keyframes fade-out {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
   }
 
 @media (max-width: 420px) {
