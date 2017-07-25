@@ -1,16 +1,12 @@
-/* STYLE FOR ELEMENTS */
+/*--- STYLE FOR ELEMENTS ---*/
 h1,h2,h3,h4,h5,h6 {font-family: "Hind", sans-serif}
 h1 {line-height: .9}
+header h1 {margin-bottom: 15px;}
 
 header {
-  background-color: #72A3CB;
-  margin-top: 7vh;
+  margin-top: 9vh;
   z-index: 10;
   position: static;
-}
-
-header h1 {
-  margin-bottom: 15px;
 }
 
 footer {
@@ -142,9 +138,9 @@ div.transparent-box {
 }
 
 .parallax {
-  background-image: url("../img/beer-bubbles.jpg");
+  background-image: url("../img/beer-bubs.jpg");
   background-attachment: fixed;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -591,7 +587,6 @@ td {
   .add-cart {
     width: 45%;
     margin:-5px;
-
   }
 
   #hawaiiGif {
