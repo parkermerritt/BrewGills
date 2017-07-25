@@ -7,10 +7,15 @@ header {
   margin-top: 7vh;
   z-index: 10;
   position: static;
-
 }
 
-footer {background-color: #032B43;}
+header h1 {
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #032B43;
+}
 
 p {
   font-family: 'Ubuntu', sans-serif;
@@ -18,8 +23,9 @@ p {
   margin: auto;
 }
 
-
-.w3-bar,h1,button {font-family: "Chau Philomene One", sans-serif}
+.w3-bar,h1,button {
+  font-family: "Chau Philomene One", sans-serif;
+}
 
 ul {
   margin: 0;
@@ -38,12 +44,10 @@ nav ul {
   flex-direction: row;
   justify-content: space-around;
 }
-
-header h1 {margin-bottom: 15px;}
-
+/*--- END OF ELEMENTS ---*/
 
 
-/* STYLE FOR CLASSES */
+/*--- STYLE FOR CLASSES ---*/
 .fa-anchor,.fa-coffee {font-size: 200px}
 
 .body-text {color: black;}
@@ -80,31 +84,30 @@ header h1 {margin-bottom: 15px;}
 
 .reelRules {
   position: static;
-width:40%;
-min-width:280px;
-max-width: 400px;
-text-align: center;
-margin:-12px;
-margin-bottom: -29.3%
+  width:40%;
+  min-width:280px;
+  max-width: 400px;
+  text-align: center;
+  margin:-12px;
+  margin-bottom: -29.3%
 }
 
 .reeds-left {
-position: relative;
-width:60%;
-margin-top: 0px;
-margin-bottom: -7px;
-padding-top: 0px;
-margin-right: -500px;
-z-index: 2;
+  position: relative;
+  width:60%;
+  margin-top: 0px;
+  margin-bottom: -7px;
+  padding-top: 0px;
+  margin-right: -500px;
+  z-index: 2;
 }
 
 .reeds-right {
-position:relative;
-width: 60%;
-float: right;
-z-index: 2;
-margin:1px;
-
+  position:relative;
+  width: 60%;
+  float: right;
+  z-index: 2;
+  margin:1px;
 }
 
 .mud-front {
@@ -129,7 +132,6 @@ width: 150%;
   .homeMerch {max-height: 225px;}
 }
 
-
 div.transparent-box {
   max-width: 500px;
   margin: auto;
@@ -146,8 +148,6 @@ div.transparent-box {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
 
 .reel {
   display: block;
@@ -172,9 +172,10 @@ div.transparent-box {
 }
 
 .paypal-info {margin-bottom: 50px;}
+/*--- END OF CLASSES ---*/
 
 
-/* STYLE FOR ID'S */
+/*--- STYLE FOR ID'S ---*/
 #merch-header {
   margin-top: 0px;
 }
@@ -190,9 +191,13 @@ div.transparent-box {
   margin-left: 50px;
 }
 
+#spincap {
+  height:15vh;
+  min-height:75px;
+  max-height: 200px;
+}
 
 @media only screen and (max-width: 420px) {
-
   #bp {
     height:45vh;
   }
@@ -201,8 +206,6 @@ div.transparent-box {
     margin-bottom: 4px;
     margin-top:4px;
   }
-
-
 }
 
 @media only screen and (min-width: 420px) {
@@ -211,14 +214,10 @@ div.transparent-box {
     width:100%;
   }
 }
+/*--- End of ID's ---*/
 
-#spincap {
-  height:15vh;
-  min-height:75px;
-  max-height: 200px;
-}
 
-/* Style for Link to Store button */
+/*--- Link to Store button ---*/
 .border {
   position: absolute;
   background: none;
@@ -242,9 +241,7 @@ button {
 
 .buttonBox{
   position: relative;
-
 }
-
 
 #link-to-store>.border:nth-of-type(1) {
   top: 0;
@@ -266,11 +263,11 @@ button {
 }
 
 button:hover {cursor: pointer;}
-/* End of button style */
+/*--- End of button style ---*/
 
 
 
-/* Settings for Social Media Icons */
+/*--- Settings for Social Media Icons ---*/
 i#fb:hover {color: #3b5998;}
 i#ig:hover {color: #bc2a8d;}
 i#sc:hover {color: #ffff00;}
@@ -279,7 +276,7 @@ i#yt:hover {color: #ff0000;}
 
 #sc, #ig, #fb, #twit, #yt {
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.5s;
   color: #ffffff;
 }
 
@@ -287,8 +284,7 @@ i#yt:hover {color: #ff0000;}
   height: 50vh;
   width: 25vw;
 }
-/* End of Social Media Icons */
-
+/*--- End of Social Media Icons ---*/
 
 
 /* 100% Image Width on Smaller Screens */
@@ -296,7 +292,7 @@ i#yt:hover {color: #ff0000;}
   .modal-content {width: 100%;}
 }
 
-/* Styling for Ipad */
+/* Styling for iPad */
 @media (min-width: 700px ) {
   @media (max-width: 1025px) {
     #bp {
@@ -313,8 +309,6 @@ i#yt:hover {color: #ff0000;}
       height: 25vh;
       min-height: 200px;
     }
-
-
   }
 }
 
@@ -339,8 +333,6 @@ i#yt:hover {color: #ff0000;}
     display: none;
   }
 
-
-
   #side-blueprint {
     width: 93vw;
     padding-top: 5px;
@@ -357,13 +349,11 @@ i#yt:hover {color: #ff0000;}
 
   .slide-img-ad {
     display: none;
-
   }
-
 }
 
 
-/* Style for Slideshow */
+/*--- Style for Top Slideshow ---*/
 .mySlides {margin-bottom: 40px;
   width: 100%;
   max-width: 700px;
@@ -373,7 +363,9 @@ i#yt:hover {color: #ff0000;}
   margin-top: 21px;
 }
 
-.slide-img {max-width: 1024px;}
+.slide-img {
+  max-width: 1024px;
+}
 
 .slide-img {
   margin-top: 20px;
@@ -410,14 +402,28 @@ i#yt:hover {color: #ff0000;}
   .merch-shirt {
     width: 90%;
   }
-
-
 }
 
+  /* Nexus 5s */
+@media (max-width: 412px) {
+  .slide-img {
+    margin-top: 5.4vh;
+    border-style: none;
+    width: 100vw;
 
+  }
+}
 
-/* Iphone 6 plus */
+  /* iPhones 5 & 6 */
+@media (max-width: 400px) {
+  .slide-img {
+    margin-top: 5vh;
+    border-style: none;
+    width: 100vw;
+  }
+}
 
+  /* iPhone 6+ */
 @media (max-width: 414px) {
   .slide-img {
     margin-top: 4.15vh;
@@ -441,52 +447,24 @@ i#yt:hover {color: #ff0000;}
     width: 53vw;
     height: auto;
     min-height: 90px;
-
   }
 
   .homeMerch {
     display: none;
-
-  }
-
-}
-
-/* Nexus 5s */
-
-@media (max-width: 412px) {
-  .slide-img {
-    margin-top: 5.4vh;
-    border-style: none;
-    width: 100vw;
-
   }
 }
-
-/* Iphones 5 & 6 */
-
-@media (max-width: 400px) {
-  .slide-img {
-    margin-top: 5vh;
-    border-style: none;
-    width: 100vw;
-  }
-}
-/* End of Slideshow Style */
+/*--- End of Top Slideshow ---*/
 
 
 
-
-/* Media Page */
-
-
-/* ======= Style for Reel-Time Table ======= */
+/*====== MEDIA PAGE ======*/
+/*--- Reel-Time Table ---*/
 #table-color {
   width: 83vw;
   max-width: 1025px;
   display: block;
   margin: 0 auto;
   margin-bottom: 40px;
-
 }
 
 @media (max-width: 600px) {
@@ -495,7 +473,9 @@ i#yt:hover {color: #ff0000;}
   }
 }
 
-.reel-time-records {background-color: none;}
+.reel-time-records {
+  background-color: none;
+}
 
 #table-heading {
   font-size: 30px;
@@ -513,7 +493,9 @@ table {
   table-layout: fixed;
 }
 
-.tbl-header {background-color: rgba(255,255,255,0.3);}
+.tbl-header {
+  background-color: rgba(255,255,255,0.3);
+}
 
 .tbl-content {
   height: 300px;
@@ -562,7 +544,7 @@ td {
 ::-webkit-scrollbar-thumb {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 }
-/* ======= End of Reel-Time Table ======= */
+/*--- End of Reel-Time Table ---*/
 
 
 #ReelGif {
@@ -575,9 +557,10 @@ td {
   display: block;
   margin: 35px auto;
 }
+/*====== END OF MEDIA PAGE ======*/
 
 
-/* Merch Page */
+/*====== MERCH PAGE ======*/
   .merch-shirt {
     width: 25vw;
     min-width: 200px;
@@ -587,24 +570,24 @@ td {
   }
 
   .store-icon {
-  width:99%;
-  min-width: 300px;
-  margin-top: -15%;
-  padding: -50px;
-  margin-bottom: 5px;
-  margin-left: -20%;
-  margin-right: -20%;
+    width:99%;
+    min-width: 300px;
+    margin-top: -15%;
+    padding: -50px;
+    margin-bottom: 5px;
+    margin-left: -20%;
+    margin-right: -20%;
   }
 
-.cart-cap {
-  position: fixed;
-bottom: 0;
-right: 0;
-margin-left: 15%;
-text-align: right;
-max-width: 800px;
+  .cart-cap {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-left: 15%;
+    text-align: right;
+    max-width: 800px;
+  }
 
-}
   .add-cart {
     width: 45%;
     margin:-5px;
@@ -621,4 +604,4 @@ max-width: 800px;
     display: block;
     margin: 35px auto;
   }
-/* end of Merch Page */
+/*====== END OF MERCH PAGE ======*/
