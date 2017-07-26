@@ -308,7 +308,7 @@ i#yt:hover {color: #ff0000;}
   }
 }
 
-/* Styling for Desktop */
+/*--- Styling for Desktop ---*/
 @media (min-width: 700px) {
   #header-img {
     min-height: 270px;
@@ -360,6 +360,41 @@ i#yt:hover {color: #ff0000;}
   margin-top: 21px;
 }
 
+.mySlides {
+  -webkit-animation-name: fade-out;
+  -webkit-animation-delay: 3.5s;
+  -webkit-animation-duration: 1s;
+  -moz-animation-name: fade-out;
+  -moz-animation-delay: 3.5s;
+  -moz-animation-duration: 1s;
+  -o-animation-name: fade-out;
+  -o-animation-delay: 3.5s;
+  -o-animation-duration: 1s;
+  animation-name: fade-out;
+  animation-delay: 3.5s;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade-out {
+  from { opacity: 1.0; }
+  to   { opacity: 0.0; }
+}
+
+@-moz-keyframes fade-out {
+  from { opacity: 1.0; }
+  to   { opacity: 0.0; }
+}
+
+@-o-keyframes fade-out {
+  from { opacity: 1.0; }
+  to   { opacity: 0.0; }
+}
+
+@keyframes fade-out {
+  from { opacity: 1.0; }
+  to   { opacity: 0.0; }
+}
+
 .slide-img {
   max-width: 1024px;
 }
@@ -372,46 +407,6 @@ i#yt:hover {color: #ff0000;}
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media (max-width: 1025px) {
-  .slide-img {
-    margin-top: 0;
-    border-style: none;
-    width: 100vw;
-  }
-}
-
-/* Ad-Slides */
-  .ad-slides {
-    width:109%;
-    justify-content: space-around;
-    margin-left: -16px;
-    margin-right: -15px;
-    margin-top: 0px;
-    margin-bottom: -120px;
-    z-index:0;
-    padding:0;
-  }
-
-  .mySlides {
-    animation-name: fade-out;
-    animation-delay: 3.5s;
-    animation-duration: 1s;
-  }
-
-  @keyframes fade-out {
-    from { opacity: 1.0; }
-    to   { opacity: 0.0; }
-  }
-
-@media (max-width: 420px) {
-  .ad-slides {
-    display: none;
-  }
-
-  .merch-shirt {
-    width: 90%;
-  }
-}
 
   /* Nexus 5s */
 @media (max-width: 412px) {
@@ -419,7 +414,6 @@ i#yt:hover {color: #ff0000;}
     margin-top: 5.4vh;
     border-style: none;
     width: 100vw;
-
   }
 }
 
@@ -462,8 +456,38 @@ i#yt:hover {color: #ff0000;}
     display: none;
   }
 }
+
+@media (max-width: 420px) {
+  .ad-slides {
+    display: none;
+  }
+
+  .merch-shirt {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1025px) {
+  .slide-img {
+    margin-top: 0;
+    border-style: none;
+    width: 100vw;
+  }
+}
 /*--- End of Top Slideshow ---*/
 
+/*--- Bottom Slideshow: Ad-Slides ---*/
+  .ad-slides {
+    width:109%;
+    justify-content: space-around;
+    margin-left: -16px;
+    margin-right: -15px;
+    margin-top: 0px;
+    margin-bottom: -120px;
+    z-index:0;
+    padding:0;
+  }
+/*--- End of Bottom Slideshow ---*/
 
 
 /*====== MEDIA PAGE ======*/
