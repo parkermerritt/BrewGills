@@ -500,9 +500,15 @@ i#yt:hover {color: #ff0000;}
   margin-bottom: 30px;
 }
 
+  /* mobile settings */
 @media (max-width: 600px) {
-  #table-color {
-    width: 85vw;
+  #ReelGif, #table-color {
+    width: 90%;
+  }
+
+  iframe {
+    width: 90%;
+    height: 40%;
   }
 }
 
@@ -511,10 +517,8 @@ i#yt:hover {color: #ff0000;}
 }
 
 .catch-of-day {
-text-align: center;
-margin-bottom: 10px;
-margin-top: -5px;
-width: 100%;
+  margin-bottom: 20px;
+  margin-top: -5px;
 }
 
 #table-heading {
@@ -590,7 +594,6 @@ td {
 #ReelGif {
   width: 85vw;
   max-width: 1025px;
-  min-width: 400px;
   padding-bottom: 1vh;
   padding-top: 5vh;
   padding-top: 45px;
@@ -632,16 +635,5 @@ td {
   .add-cart {
     width: 45%;
     margin:-5px;
-  }
-
-  #hawaiiGif {
-    width: 85vw;
-    max-width: 1025px;
-    min-width: 400px;
-    padding-bottom: 1vh;
-    padding-top: 5vh;
-    padding-top: 45px;
-    display: block;
-    margin: 35px auto;
   }
 /*====== END OF MERCH PAGE ======*/
