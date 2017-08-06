@@ -80,7 +80,7 @@ nav ul {
 
 .reelRules {
   position: static;
-  width:40%;
+  width: 40%;
   min-width:280px;
   max-width: 400px;
   text-align: center;
@@ -510,6 +510,22 @@ i#yt:hover {color: #ff0000;}
     width: 90%;
     height: 40%;
   }
+
+  #rank-column {
+    width: 15%;
+  }
+
+  #name-column {
+    width: 30%;
+  }
+
+  #time-column {
+    width: 15%;
+  }
+
+  #location-column {
+    width: 40%;
+  }
 }
 
 .reel-time-records {
@@ -519,17 +535,6 @@ i#yt:hover {color: #ff0000;}
 .catch-of-day {
   margin-bottom: 20px;
   margin-top: -5px;
-}
-
-#table-heading {
-  font-size: 30px;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 300;
-  text-align: center;
-  margin-bottom: 15px;
-  padding-top: 15px;
-  max-width: 1500px;
 }
 
 table {
@@ -613,7 +618,7 @@ td {
   }
 
   .store-icon {
-    width:100%;
+    width: 100%;
     min-width: 430px;
     max-width: 750px;
     margin-top: -139px;
