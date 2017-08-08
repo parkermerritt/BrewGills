@@ -19,6 +19,7 @@ p {
   margin: auto;
 }
 
+
 .w3-bar,h1,button {
   font-family: "Chau Philomene One", sans-serif;
 }
@@ -499,6 +500,19 @@ i#yt:hover {color: #ff0000;}
   margin: 0 auto;
   margin-bottom: 30px;
 }
+
+#mc_embed_signup {
+  background:#47A6E4;
+  font:14px Helvetica,Arial,sans-serif;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top: -15px;
+  min-width: 100px;
+  max-width: 355px;
+  float: none;
+  padding: 10px;
+ }
 
   /* mobile settings */
 @media (max-width: 600px) {
