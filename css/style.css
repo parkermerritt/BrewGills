@@ -617,15 +617,12 @@ td {
     margin: 0 auto;
   }
 
-  .store-icon {
+  .store-img {
     width: 100%;
-    min-width: 430px;
-    max-width: 750px;
     margin-top: -139px;
-    padding: -50px;
     margin-bottom: -80px;
-    margin-left: -30%;
-    margin-right: -30%;
+    padding-right: 4.5%;
+    padding: -50px;
   }
 
   .cart-cap {
