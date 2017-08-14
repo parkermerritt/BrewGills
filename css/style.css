@@ -1,5 +1,5 @@
 /*--- STYLE FOR ELEMENTS ---*/
-h1,h2,h3,h4,h5,h6 {font-family: "Hind", sans-serif}
+h1,h2,h3,h4,h5,h6,button,.w3-bar {font-family: 'Chau Philomene One', sans-serif;}
 h1 {line-height: .9}
 header h1 {margin-bottom: 15px;}
 
@@ -14,17 +14,14 @@ footer {
 }
 
 p {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 17px;
   max-width: 500px;
   margin: auto;
 }
 
-
-.w3-bar,h1,button {
-  font-family: "Chau Philomene One", sans-serif;
-}
-
 ul {
+  font-family: 'Saira Semi Condensed', sans-serif;
   margin: 0;
   padding: 0;
   list-style-type: none;
