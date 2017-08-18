@@ -45,9 +45,9 @@ function pressMerchCap() {
 }
 
 function navigateToMedia() {
-  window.location.assign("http://www.brewgills.com/media.html")
+  window.location.assign("media.html")
 }
 
 function navigateToMerch() {
-  window.location.assign("http://www.brewgills.com/merch.html")
+  window.location.assign("merch.html")
 }
