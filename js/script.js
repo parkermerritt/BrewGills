@@ -31,7 +31,7 @@ function pressMediaCap() {
   var audio = document.getElementById("audio");
   audio.play();
 
-  setTimeout(navigateToMedia, 300);
+  setTimeout(navigateToMedia, 600);
 }
 
 function pressMerchCap() {
@@ -41,7 +41,7 @@ function pressMerchCap() {
   var audio = document.getElementById("audio");
   audio.play();
 
-  setTimeout(navigateToMerch, 300);
+  setTimeout(navigateToMerch, 600);
 }
 
 function navigateToMedia() {
