@@ -27,16 +27,12 @@ ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 ul li {
   flex: 1 0 auto;
   text-align: center;
-}
-
-nav ul {
-  flex-direction: row;
-  justify-content: space-around;
 }
 /*--- END OF ELEMENTS ---*/
 
@@ -54,6 +50,7 @@ nav ul {
   height: 10vh;
   min-height: 80px;
   max-height: 150px;
+  cursor: pointer;
 }
 
 .infographic-left {
@@ -185,7 +182,7 @@ div.transparent-box {
   margin-left: 50px;
 }
 
-#spincap {
+#spin-cap {
   height:15vh;
   min-height:75px;
   max-height: 200px;
