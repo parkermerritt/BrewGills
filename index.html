@@ -1,50 +1,45 @@
 <!DOCTYPE html>
 <html>
-<title>BrewGills: Shotgun Bottled Beer</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="css\style.css">
-<link href="https://fonts.googleapis.com/css?family=Chau+Philomene+One" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js"></script>
-<script src="js\script.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-100787675-1', 'auto');
-  ga('send', 'pageview');
+<head>
+  <title>BrewGills: Shotgun Bottled Beer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Chau+Philomene+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js"></script>
+  <script type="text/javascript" src="js/script.js" async></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-100787675-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <audio id="audio" src="bottlecap-sound.mp3"></audio>
 
-  function playSound() {
-    var audio = new audio();
-    audio.src = "http://freesound.org/data/previews/119/119900_1990698-lq.mp3";
-  document.getElementById("audio").play();
-  }
-</script>
-<audio id="audio"></audio>
-
-<!-- Favicon -->
-<link rel="icon" type="image/png" href="img/BlueBGFavicon.png">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/BlueBGFavicon.png">
+</head>
 
 <body>
   <!-- NAV BAR -->
   <div class="w3-top">
-    <div class="w3-bar w3-card-2 w3-center-align w3-large" style="background-color: #333333">
-     <ul class="w3-center-align">
-       <li class="w3-right-align"><a onclick="playSound()" href="media.html"><img src="img\MenuCapV2.png" alt="link to media page" class="nav-img"></a></li>
-       <li><a href="index.html"><img src="img\BGbonesLogoTrans.png" alt="link to home page" class="nav-img"></a></li>
-       <li class="w3-left-align"><a onclick="playSound()"  href="merch.html"><img src="img\MenuCap4.png" alt="link to merchandise page" class="nav-img"></a></li>
+    <div class="w3-bar w3-center-align" style="background-color: #333333">
+     <ul>
+       <li class="w3-right-align"><img src="img/MenuCapV2.png" onclick="pressMediaCap()" id="media-cap" alt="link to media page" class="nav-img"></li>
+       <li><a href="index.html"><img src="img/BGbonesLogoTrans.png" alt="link to home page" class="nav-img"></a></li>
+       <li class="w3-left-align"><img src="img/MenuCap4.png" onclick="pressMerchCap()" id="merch-cap" alt="link to merchandise page" class="nav-img"></li>
      </ul>
     </div>
   </div>
 
   <!-- HEADER -->
-  <header class="w3-container w3-center parallax"ß>
+  <header class="w3-container w3-center parallax">
     <!-- Slideshow -->
     <div class="mySlides w3-display-container w3-center">
       <img src="img/BrewGill9.jpeg" style="width:100%" class="slide-img">
@@ -202,7 +197,7 @@
             </p>
           </div>
           <div class="w3-third w3-center w3-padding-32">
-            <img src="img\BGLogoCap2.png" id="spincap">
+            <img src="img\BGLogoCap2.png" id="spin-cap">
           </div>
           <div class="w3-third w3-center">
             <h1 class="w3-xlarge" style="color: #FF4533">Contact Info</h1>
@@ -233,17 +228,17 @@
   </footer>
 
   <script>
-  // Used to toggle the menu on small screens when clicking on the menu button
-  function myFunction() {
-      var x = document.getElementById("navDemo");
-      if (x.className.indexOf("w3-show") == -1) {
-          x.className += " w3-show";
-      } else {
-          x.className = x.className.replace(" w3-show", "");
-      }
-  }
+  // // Used to toggle the menu on small screens when clicking on the menu button
+  // function myFunction() {
+  //     var x = document.getElementById("navDemo");
+  //     if (x.className.indexOf("w3-show") == -1) {
+  //         x.className += " w3-show";
+  //     } else {
+  //         x.className = x.className.replace(" w3-show", "");
+  //     }
+  // }
 
-  //Top Slideshow
+  //Header Slideshow
   var myIndex = 0;
   carousel();
   function carousel() {
@@ -258,6 +253,7 @@
       setTimeout(carousel, 4500); // Change image every 4.5 seconds
   }
 
+  //Ad Slideshow
   carousel2();
   function carousel2() {
       var i;
@@ -270,8 +266,6 @@
       x[myIndex-1].style.display = "block";
       setTimeout(carousel2, 5000); // Change image every 4.5 seconds
   }
-  //Ad Slideshow
-
   </script>
 </body>
 </html>
