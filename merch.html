@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html>
-<title>BrewGills - Merch</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="css\style.css">
-<link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Chau+Philomene+One" rel="stylesheet">
-<link rel="icon" type="image/png" href="img/SocialSwirlCap.png">
-<script src="js\script.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-100787675-1', 'auto');
-  ga('send', 'pageview');
-</script>
-<body>
+<head>
+  <title>BrewGills - Merch</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Chau+Philomene+One" rel="stylesheet">
+  <link rel="icon" type="image/png" href="img/SocialSwirlCap.png">
+  <script type="text/javascript" src="js/script.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-100787675-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <audio id="audio" src="bottlecap-sound.mp3"></audio>
+</head>
 
+<body>
   <!-- Nav Bar -->
-<div class="w3-top">
-  <div class="w3-bar w3-card-2 w3-center-align w3-large" style="background-color: #333333">
-    <ul class="w3-center-align">
-      <li class="w3-right-align"><a href="media.html"><img src="img\MenuCapV2.png" class="nav-img"></a></li>
-      <li><a href="index.html"><img src="img\BGbonesLogoTrans.png" class="nav-img"></a></li>
-      <li class="w3-left-align"><a href="merch.html"><img src="img\MenuCap4.png" class="nav-img"></a></li>
-    </ul>
+  <div class="w3-top">
+    <div class="w3-bar w3-center-align" style="background-color: #333333">
+     <ul>
+       <li class="w3-right-align"><img src="img/MenuCapV2.png" onclick="pressMediaCap()" id="media-cap" alt="link to media page" class="nav-img"></li>
+       <li><a href="index.html"><img src="img/BGbonesLogoTrans.png" alt="link to home page" class="nav-img"></a></li>
+       <li class="w3-left-align"><img src="img/MenuCap4.png" onclick="pressMerchCap()" id="merch-cap" alt="link to merchandise page" class="nav-img"></li>
+     </ul>
+    </div>
   </div>
-</div>
 
   <!-- Header -->
 <header class="w3-container w3-center" style="padding: 30px 16px; background-color: #4b8779;" >
