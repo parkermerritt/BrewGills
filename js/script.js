@@ -5,17 +5,49 @@ window.onclick = function(event) {
   }
 }
 
+
+// White bottlecap spinning effect
 $(window).scroll(function() {
   var theta = $(window).scrollTop()/100.0 % (Math.PI*4.5);
-  $('#spincap').css({ transform: 'rotate(-' + theta + 'rad)' });
+  $('#spin-cap').css({ transform: 'rotate(-' + theta + 'rad)' });
 });
 
 
-$(document).ready(function(){
+// Zoom-in effect for certain images on hover
+$(document).ready(function() {
   $('.img-zoom').hover(function() {
-      $(this).addClass('transition');
-
+    $(this).addClass('transition');
   }, function() {
-      $(this).removeClass('transition');
+    $(this).removeClass('transition');
   });
 });
+
+
+// Attempting bottlecap bend + sound with JavaScript
+function pressMediaCap() {
+  document.getElementById("media-cap").src = "img/BentMediaCapV2.png";
+
+  // Initiate bottle-cap sound effect
+  var audio = document.getElementById("audio");
+  audio.play();
+
+  setTimeout(navigateToMedia, 300);
+}
+
+function pressMerchCap() {
+  document.getElementById("merch-cap").src = "img/BentMerchCapV2.png";
+
+  // Initiate bottle-cap sound effect
+  var audio = document.getElementById("audio");
+  audio.play();
+
+  setTimeout(navigateToMerch, 300);
+}
+
+function navigateToMedia() {
+  window.location.assign("http://www.brewgills.com/media.html")
+}
+
+function navigateToMerch() {
+  window.location.assign("http://www.brewgills.com/merch.html")
+}
