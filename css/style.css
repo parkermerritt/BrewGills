@@ -171,7 +171,7 @@ div.transparent-box {
   margin-top: 0px;
 }
 
-#bp {
+#horiz-blueprint {
   height: 45vh;
   min-height: 300px;
 }
@@ -189,7 +189,7 @@ div.transparent-box {
 }
 
 @media only screen and (max-width: 420px) {
-  #bp {
+  #horiz-blueprint {
     height:45vh;
   }
 
@@ -286,7 +286,7 @@ i#yt:hover {color: #ff0000;}
 /* Styling for iPad */
 @media (min-width: 700px ) {
   @media (max-width: 1025px) {
-    #bp {
+    #horiz-blueprint {
       height: 40vh;
       min-height: 330px;
     }
@@ -311,34 +311,32 @@ i#yt:hover {color: #ff0000;}
 }
 
 @media (min-width: 1200px) {
-  #bp {
+  #horiz-blueprint {
     height: 40vh;
     min-height: 350px;
   }
 }
 
 
-/* Code to hide/show #bg img (Original author: Parker) */
-@media only screen and (max-width: 419px) {
-  #bp {
-    display: none;
-  }
-
-  #side-blueprint {
+/* --- Code to hide/show #bg img (Original author: Parker) ---*/
+@media only screen and (max-width: 420px) {
+  #vertical-blueprint {
     width: 93vw;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-right: auto;
     margin-left: auto;
   }
-}
 
-@media only screen and (min-width: 420px) {
-  #side-blueprint {
+  /* The following id is hidden from mobile devices */
+  #horiz-blueprint {
     display: none;
   }
+}
 
-  .slide-img-ad {
+  /* The following items are hidden from non-mobile devices */
+@media only screen and (min-width: 420px) {
+  #vertical-blueprint, #hide-slideshow {
     display: none;
   }
 }
@@ -422,7 +420,7 @@ i#yt:hover {color: #ff0000;}
 }
 
   /* iPhone 6+ */
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   .slide-img {
     margin-top: 4.15vh;
     border-style: none;
@@ -453,10 +451,6 @@ i#yt:hover {color: #ff0000;}
 }
 
 @media (max-width: 420px) {
-  .ad-slides {
-    display: none;
-  }
-
   .merch-shirt {
     width: 90%;
   }
@@ -471,16 +465,16 @@ i#yt:hover {color: #ff0000;}
 }
 /*--- End of Top Slideshow ---*/
 
-/*--- Bottom Slideshow: Ad-Slides ---*/
-  .ad-slides {
-    width:109%;
+/*--- Bottom Slideshow: Ad Slides ---*/
+  .ad-slideshow {
+    width: 109%;
     justify-content: space-around;
     margin-left: -16px;
     margin-right: -15px;
     margin-top: 0px;
     margin-bottom: -120px;
-    z-index:0;
-    padding:0;
+    z-index: 0;
+    padding: 0;
   }
 /*--- End of Bottom Slideshow ---*/
 
