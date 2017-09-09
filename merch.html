@@ -11,6 +11,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Chau+Philomene+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   <link rel="icon" type="image/png" href="img/SocialSwirlCap.png">
   <script type="text/javascript" src="js/script.js"></script>
   <script>
@@ -57,8 +58,46 @@
         </form>
         <!-- End of View Cart Button -->
 
+        <!-- Beta Flow Hook Section -->
+        <div class="w3-row w3-content w3-padding-64">
+          <h2>Flow Hooks</h2>
+          <div class="w3-third w3-container"></div>
+          <div class="w3-third w3-container">
+            <img src="img\BG_TackleBox.jpg" alt="Tacklebox Display" class="hook-img img-zoom">
+            <!-- PayPal Button -->
+            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="K3NPSNUMWH5R6">
+              <table>
+              <tr><td><input type="hidden" name="on0" value="Colors"></td></tr>
+              <tr>
+                <td class="w3-center">
+                  <select name="os0">
+                  	<option value="Gator (O&B)">Gator (O&B) $7.00 USD</option>
+                  	<option value="American (R&B)">American (R&B) $7.00 USD</option>
+                  	<option value="Blue">Blue $7.00 USD</option>
+                  	<option value="Orange">Orange $7.00 USD</option>
+                  	<option value="Red">Red $7.00 USD</option>
+                  	<option value="Clear">Clear $7.00 USD</option>
+                  	<option value="White">White $7.00 USD</option>
+                  	<option value="Black">Black $7.00 USD</option>
+                  </select>
+                </td>
+              </tr>
+              </table>
+              <input type="hidden" name="currency_code" value="USD">
+              <input class="add-cart" type="image" src="img\AddCart1.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </div>
+          <div class="w3-third w3-container"></div>
+        </div>
+        <!-- End of Beta Hook Section -->
+
+
         <!--row 1 of shirts-->
         <div class="w3-row w3-padding-64 w3-content">
+          <h2>Clothing</h2>
           <div class="w3-third w3-container">
             <img src="img\ScrewdriverOrangeMerch.png" alt="Screwdriver Orange Shirt" class="merch-shirt img-zoom">
             <!-- Screwdriver Orange PayPal Button -->
@@ -151,7 +190,7 @@
             <tr>
               <td class="w3-center">
                 <a href="https://www.paypal.com/webapps/mpp/paypal-popup" title="How PayPal Works" onclick="javascript:window.open('https://www.paypal.com/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;">
-                  <img src="https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/logo-center/9_bdg_secured_by_pp_2line.png" border="0" alt="Secured by PayPal">
+                  <img src="img\PayPalBadge1.png" border="0" alt="Secured by PayPal">
                 </a>
               </td>
             </tr>
