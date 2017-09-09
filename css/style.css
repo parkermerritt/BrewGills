@@ -1,6 +1,7 @@
 /*--- STYLE FOR ELEMENTS ---*/
-h1,h2,h3,h4,h5,h6,button,.w3-bar {font-family: 'Chau Philomene One', sans-serif;}
+h1,h3,h4,h5,h6,button,.w3-bar {font-family: 'Chau Philomene One', sans-serif;}
 h1 {line-height: .9}
+h2 {font-family: 'Lobster', cursive; font-size: 55px;}
 header h1 {margin-bottom: 15px;}
 
 header {
@@ -451,7 +452,7 @@ i#yt:hover {color: #ff0000;}
 }
 
 @media (max-width: 420px) {
-  .merch-shirt {
+  .merch-shirt, .hook-img {
     width: 90%;
   }
 }
@@ -611,7 +612,7 @@ td {
 
 
 /*====== MERCH PAGE ======*/
-  .merch-shirt {
+  .merch-shirt, .hook-img {
     width: 25vw;
     min-width: 200px;
     max-width: 300px;
